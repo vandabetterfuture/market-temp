@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T20:33:51.557013+00:00",
+  "generated_at": "2026-07-20T20:41:37.368310+00:00",
   "market_status": "Latest available close",
   "market_temperature": {
     "label": "Defensive",
@@ -398,20 +398,28 @@
   ],
   "news": [
     {
+      "ticker": "GOOGL",
+      "title": "AI capex to Pass $1 trillion by 2027: Strategist",
+      "link": "https://finance.yahoo.com/video/ai-capex-to-pass-1-trillion-by-2027-strategist-203233858.html",
+      "publisher": "Yahoo Finance Video",
+      "summary": "Raymond James Investment Management chief market strategist Matt Orton predicts 2027 AI capex will top $1 trillion driven by strong cloud monetization and capacity constraints, warning that chip stocks could face a 15% to 20% sell-off if Big Tech fails to raise spending guidance.",
+      "published": "2026-07-20T20:32:33Z"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Dividend Stock Showdown: Is Coca-Cola or PepsiCo the Better Buy Right Now?",
+      "link": "https://www.fool.com/investing/2026/07/20/dividend-stock-showdown-is-coca-cola-or-pepsi/",
+      "publisher": "Motley Fool",
+      "summary": "Coca-Cola is winning today, but PepsiCo's higher dividend, cheaper valuation, and turnaround catalysts could make it the smarter long-term buy for income investors.",
+      "published": "2026-07-20T20:25:00Z"
+    },
+    {
       "ticker": "NVDA",
       "title": "Broadcom Stock Has Jumped Just 7% in 2026. This Move by Meta Platforms Could Supercharge the Stock in the Second Half",
       "link": "https://www.fool.com/investing/2026/07/20/broadcom-stock-has-jumped-just-7-in-2026-this-move/",
       "publisher": "Motley Fool",
       "summary": "Meta Platforms' deployment of an in-house chip this September can supercharge Broadcom's growth.",
       "published": "2026-07-20T20:13:00Z"
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Bristol Myers Expands NVIDIA Partnership to Build Top Life Sciences AI Supercomputer",
-      "link": "https://finance.yahoo.com/technology/ai/articles/bristol-myers-expands-nvidia-partnership-201248290.html",
-      "publisher": "GuruFocus.com",
-      "summary": "Drugmaker deploys NVIDIA DGX SuperPOD with Vera Rubin systems to accelerate medicine discovery.",
-      "published": "2026-07-20T20:12:48Z"
     },
     {
       "ticker": "SPY",
@@ -436,14 +444,6 @@
       "publisher": "Investor's Business Daily",
       "summary": "Boosted by demand among top funds and partnerships with Amazon, Google and Microsoft, Twilio eyes a breakout.",
       "published": "2026-07-20T19:54:15Z"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "DeepMind CEO calls for US-led oversight of advanced AI",
-      "link": "https://finance.yahoo.com/video/deepmind-ceo-calls-for-us-led-oversight-of-advanced-ai-195119862.html",
-      "publisher": "Yahoo Finance Video",
-      "summary": "Yahoo Finance Tech Editor Dan Howley joins Market Domination to discuss DeepMind CEO Demis Hassabis' call for U.S.-led oversight of advanced AI models and what it could mean for the future of AI regulation.",
-      "published": "2026-07-20T19:51:19Z"
     },
     {
       "ticker": "AMZN",
