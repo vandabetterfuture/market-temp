@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Daily market temperature and ranked watchlist dashboard" />
+  <title>Market Temperature</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">DAILY MARKET DASHBOARD</p>
+      <h1>Market Temperature</h1>
+      <p id="asOf" class="muted">Loading latest report…</p>
+    </div>
+    <button id="refreshButton" type="button">Refresh</button>
+  </header>
+
+  <main>
+    <section class="temperature-grid" aria-label="Market temperature">
+      <article class="metric-card buy-card">
+        <span>📈 BUY</span>
+        <strong id="buyPercent">--%</strong>
+        <small>Constructive signals</small>
+      </article>
+      <article class="metric-card hold-card">
+        <span>✋ HOLD</span>
+        <strong id="holdPercent">--%</strong>
+        <small>Mixed or neutral signals</small>
+      </article>
+      <article class="metric-card sell-card">
+        <span>📉 SELL</span>
+        <strong id="sellPercent">--%</strong>
+        <small>Defensive signals</small>
+      </article>
+    </section>
+
+    <section class="summary-card">
+      <div>
+        <p class="eyebrow">OVERALL SIGNAL</p>
+        <h2 id="marketLabel">Loading…</h2>
+        <p id="marketSummary" class="muted"></p>
+      </div>
+      <div class="score-ring" aria-label="Market score">
+        <span id="marketScore">--</span>
+        <small>/100</small>
+      </div>
+    </section>
+
+    <section class="stat-grid">
+      <article><span>SPY</span><strong id="spyPrice">—</strong><small id="spyChange">—</small></article>
+      <article><span>QQQ</span><strong id="qqqPrice">—</strong><small id="qqqChange">—</small></article>
+      <article><span>VIX</span><strong id="vixPrice">—</strong><small id="vixStatus">—</small></article>
+      <article><span>Trend</span><strong id="trendStatus">—</strong><small>20d / 50d / 200d</small></article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">RANKED WATCHLIST</p>
+          <h2>Today’s Buy Candidates</h2>
+        </div>
+        <span class="pill">Educational only</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Symbol</th><th>Price</th><th>Day</th><th>Score</th><th>Signal</th><th>Reason</th></tr>
+          </thead>
+          <tbody id="candidateRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="two-column">
+      <article class="panel">
+        <p class="eyebrow">PORTFOLIO MODE</p>
+        <h2>$25 Starter Plan</h2>
+        <p class="muted">This dashboard does not promise $25 → $2,500. It emphasizes fractional shares, diversification, and risk controls.</p>
+        <div class="allocation" id="allocation"></div>
+      </article>
+      <article class="panel">
+        <p class="eyebrow">RISK CHECK</p>
+        <h2>Rules Before Buying</h2>
+        <ul class="rules">
+          <li>Never risk money needed for bills.</li>
+          <li>Avoid leverage, options, and margin with a $25 account.</li>
+          <li>Do not buy solely because a score is high.</li>
+          <li>Review earnings dates and major news first.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="panel">
+      <p class="eyebrow">SYSTEM NOTES</p>
+      <h2>How the score works</h2>
+      <p class="muted">Scores combine price trend, momentum, volatility and relative strength. News and fundamentals are not yet included in this first version.</p>
+    </section>
+
+    <p id="errorMessage" class="error" hidden></p>
+  </main>
+
+  <footer>Data may be delayed or incomplete. This is not investment advice.</footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

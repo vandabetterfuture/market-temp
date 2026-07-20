@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-07-20T16:00:00+00:00",
+  "temperature": {"buy": 52, "hold": 34, "sell": 14},
+  "market": {
+    "score": 64,
+    "label": "Bullish",
+    "summary": "Sample data is displayed until the automated updater runs.",
+    "spy": {"price": 0, "change_percent": 0},
+    "qqq": {"price": 0, "change_percent": 0},
+    "vix": {"price": 0, "change_percent": 0, "status": "Waiting for update"},
+    "trend": "Waiting"
+  },
+  "candidates": [
+    {"symbol":"NVDA","price":0,"change_percent":0,"score":82,"signal":"BUY","reason":"Sample placeholder; run updater for live calculation"},
+    {"symbol":"GOOGL","price":0,"change_percent":0,"score":78,"signal":"BUY","reason":"Sample placeholder; run updater for live calculation"},
+    {"symbol":"QCOM","price":0,"change_percent":0,"score":74,"signal":"BUY","reason":"Sample placeholder; run updater for live calculation"}
+  ],
+  "starter_plan": [
+    {"label":"Broad ETF","percent":60},
+    {"label":"Growth ETF","percent":25},
+    {"label":"Cash","percent":15}
+  ]
+}
