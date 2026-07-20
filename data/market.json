@@ -1,23 +1,136 @@
 {
   "generated_at": "2026-07-20T16:00:00+00:00",
-  "temperature": {"buy": 52, "hold": 34, "sell": 14},
-  "market": {
-    "score": 64,
-    "label": "Bullish",
-    "summary": "Sample data is displayed until the automated updater runs.",
-    "spy": {"price": 0, "change_percent": 0},
-    "qqq": {"price": 0, "change_percent": 0},
-    "vix": {"price": 0, "change_percent": 0, "status": "Waiting for update"},
-    "trend": "Waiting"
+  "market_status": "Sample data \u2014 run the Action",
+  "market_temperature": {
+    "label": "Neutral / Selective",
+    "score": 55,
+    "buy_percent": 30,
+    "hold_percent": 45,
+    "sell_percent": 25
   },
-  "candidates": [
-    {"symbol":"NVDA","price":0,"change_percent":0,"score":82,"signal":"BUY","reason":"Sample placeholder; run updater for live calculation"},
-    {"symbol":"GOOGL","price":0,"change_percent":0,"score":78,"signal":"BUY","reason":"Sample placeholder; run updater for live calculation"},
-    {"symbol":"QCOM","price":0,"change_percent":0,"score":74,"signal":"BUY","reason":"Sample placeholder; run updater for live calculation"}
+  "market_metrics": [
+    {
+      "label": "S&P 500",
+      "value": "Sample",
+      "change_percent": 0
+    },
+    {
+      "label": "Nasdaq 100",
+      "value": "Sample",
+      "change_percent": 0
+    },
+    {
+      "label": "VIX",
+      "value": "Sample",
+      "change_percent": 0
+    },
+    {
+      "label": "Russell 2000",
+      "value": "Sample",
+      "change_percent": 0
+    }
   ],
-  "starter_plan": [
-    {"label":"Broad ETF","percent":60},
-    {"label":"Growth ETF","percent":25},
-    {"label":"Cash","percent":15}
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "signal": "BUY",
+      "score": 78,
+      "price": 0,
+      "change_percent": 0,
+      "reason": "Sample candidate; run updater for live data.",
+      "rsi": 58,
+      "risk": "Medium"
+    },
+    {
+      "ticker": "GOOGL",
+      "signal": "HOLD",
+      "score": 64,
+      "price": 0,
+      "change_percent": 0,
+      "reason": "Sample candidate; run updater for live data.",
+      "rsi": 58,
+      "risk": "Medium"
+    }
+  ],
+  "starter_allocation": [
+    {
+      "ticker": "SCHG",
+      "amount": 12.5,
+      "reason": "Diversified growth core"
+    },
+    {
+      "ticker": "NVDA",
+      "amount": 7.5,
+      "reason": "Higher-growth satellite"
+    },
+    {
+      "ticker": "CASH",
+      "amount": 5,
+      "reason": "Reserve"
+    }
+  ],
+  "market_notes": [
+    "Placeholder data renders immediately.",
+    "Run GitHub Actions for current prices.",
+    "Educational signals only."
+  ],
+  "sectors": [
+    {
+      "name": "Technology",
+      "ticker": "XLK",
+      "change_percent": 1.8
+    },
+    {
+      "name": "Semiconductors",
+      "ticker": "SMH",
+      "change_percent": 1.4
+    },
+    {
+      "name": "Industrials",
+      "ticker": "XLI",
+      "change_percent": 0.6
+    }
+  ],
+  "news": [
+    {
+      "ticker": "MARKET",
+      "title": "Run the GitHub Action to load current headlines",
+      "link": "https://github.com/vandabetterfuture/market-temp/actions",
+      "publisher": "Market Temperature",
+      "summary": "Phase 2 retrieves headlines during each automated update."
+    }
+  ],
+  "portfolio": {
+    "cash": 25,
+    "holdings": [],
+    "total_value": 0,
+    "total_cost": 0,
+    "total_gain": 0
+  },
+  "history": [
+    {
+      "date": "2026-07-18",
+      "score": 52,
+      "buy_percent": 27,
+      "hold_percent": 46,
+      "sell_percent": 27,
+      "leader": "NVDA"
+    },
+    {
+      "date": "2026-07-19",
+      "score": 54,
+      "buy_percent": 29,
+      "hold_percent": 45,
+      "sell_percent": 26,
+      "leader": "NVDA"
+    },
+    {
+      "date": "2026-07-20",
+      "score": 55,
+      "buy_percent": 30,
+      "hold_percent": 45,
+      "sell_percent": 25,
+      "leader": "NVDA"
+    }
   ]
 }

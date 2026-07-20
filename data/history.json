@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-07-18",
+    "score": 52,
+    "buy_percent": 27,
+    "hold_percent": 46,
+    "sell_percent": 27,
+    "leader": "NVDA"
+  },
+  {
+    "date": "2026-07-19",
+    "score": 54,
+    "buy_percent": 29,
+    "hold_percent": 45,
+    "sell_percent": 26,
+    "leader": "NVDA"
+  },
+  {
+    "date": "2026-07-20",
+    "score": 55,
+    "buy_percent": 30,
+    "hold_percent": 45,
+    "sell_percent": 25,
+    "leader": "NVDA"
+  }
+]

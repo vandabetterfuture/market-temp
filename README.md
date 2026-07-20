@@ -1,38 +1,55 @@
-# Market Temperature Dashboard
+# Market Temperature — Phase 2
 
-A mobile-friendly daily market dashboard that scores a custom watchlist using price trend, momentum, RSI and volatility.
+A mobile-friendly daily market intelligence dashboard hosted on GitHub Pages.
 
-## Features
+## Phase 2 features
 
+- Overview, Candidates, News, Portfolio and History tabs
 - Buy / Hold / Sell market temperature
-- SPY, QQQ and VIX snapshot
-- Ranked daily candidates with explainable scores
-- $25 starter allocation example
-- Automatic weekday refresh through GitHub Actions
-- Static hosting through GitHub Pages
+- RSI, volatility-based risk level and stronger candidate details
+- Sector relative-strength rankings
+- Latest headlines for selected tickers
+- Editable holdings in `config.json`
+- Portfolio value and gain/loss calculations
+- 90-day market-score history
+- Automated weekday refresh with GitHub Actions
 
-## Run locally
+## Install
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python scripts/update_market.py
-python -m http.server 8000
+unzip market-temp-phase2.zip
+cd market-temp
+cp -R /path/to/market-temp-phase2/. .
+git add .
+git commit -m "Add Phase 2 dashboard"
+git push origin main
 ```
 
-Open `http://localhost:8000`.
+## Publish
 
-## Deploy with GitHub Pages
+GitHub → Settings → Pages → Deploy from branch → `main` → `/ (root)`.
 
-In the repository, open **Settings → Pages** and choose:
+Then run **Actions → Update market dashboard → Run workflow**.
 
-- Source: `Deploy from a branch`
-- Branch: `main`
-- Folder: `/ (root)`
+Your site:
 
-The workflow runs at 13:15 UTC on weekdays and can also be run manually from the Actions tab.
+`https://vandabetterfuture.github.io/market-temp/`
 
-## Important limitations
+## Portfolio setup
 
-This is an educational screening tool, not a trading bot or guarantee. The first version uses market-price data only. Earnings, valuation, analyst revisions, news sentiment, premarket data and transaction costs are not yet incorporated.
+Edit `config.json`:
+
+```json
+{
+  "starting_cash": 25,
+  "holdings": [
+    {"ticker": "SCHG", "shares": 0.1, "cost_basis": 3.00}
+  ]
+}
+```
+
+`cost_basis` is the total amount paid for that holding, not the per-share price.
+
+## Important
+
+This is a rules-based educational research tool. It does not guarantee profits and cannot reliably turn $25 into $2,500 in one year.

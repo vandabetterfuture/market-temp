@@ -1,0 +1,17 @@
+{
+  "starting_cash": 25,
+  "holdings": [],
+  "news_tickers": [
+    "SPY",
+    "QQQ",
+    "NVDA",
+    "GOOGL",
+    "MSFT",
+    "AMZN",
+    "META",
+    "PLTR",
+    "AMD",
+    "QCOM"
+  ],
+  "max_news_items": 12
+}
