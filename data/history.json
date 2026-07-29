@@ -70,5 +70,13 @@
     "hold_percent": 29,
     "sell_percent": 56,
     "leader": "SNOW"
+  },
+  {
+    "date": "2026-07-29",
+    "score": 39,
+    "buy_percent": 15,
+    "hold_percent": 29,
+    "sell_percent": 56,
+    "leader": "MA"
   }
 ]
