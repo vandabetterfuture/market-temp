@@ -94,5 +94,13 @@
     "hold_percent": 34,
     "sell_percent": 51,
     "leader": "V"
+  },
+  {
+    "date": "2026-08-03",
+    "score": 44,
+    "buy_percent": 22,
+    "hold_percent": 37,
+    "sell_percent": 41,
+    "leader": "SCHG"
   }
 ]
