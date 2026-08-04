@@ -102,5 +102,13 @@
     "hold_percent": 37,
     "sell_percent": 41,
     "leader": "SCHG"
+  },
+  {
+    "date": "2026-08-04",
+    "score": 53,
+    "buy_percent": 24,
+    "hold_percent": 51,
+    "sell_percent": 25,
+    "leader": "ANET"
   }
 ]
