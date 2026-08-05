@@ -110,5 +110,13 @@
     "hold_percent": 51,
     "sell_percent": 25,
     "leader": "ANET"
+  },
+  {
+    "date": "2026-08-05",
+    "score": 55,
+    "buy_percent": 29,
+    "hold_percent": 49,
+    "sell_percent": 22,
+    "leader": "MA"
   }
 ]
