@@ -118,5 +118,13 @@
     "hold_percent": 49,
     "sell_percent": 22,
     "leader": "MA"
+  },
+  {
+    "date": "2026-08-07",
+    "score": 57,
+    "buy_percent": 37,
+    "hold_percent": 41,
+    "sell_percent": 22,
+    "leader": "CRWD"
   }
 ]
