@@ -126,5 +126,13 @@
     "hold_percent": 41,
     "sell_percent": 22,
     "leader": "CRWD"
+  },
+  {
+    "date": "2026-08-10",
+    "score": 56,
+    "buy_percent": 34,
+    "hold_percent": 44,
+    "sell_percent": 22,
+    "leader": "PANW"
   }
 ]
