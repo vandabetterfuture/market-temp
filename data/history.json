@@ -142,5 +142,13 @@
     "hold_percent": 39,
     "sell_percent": 24,
     "leader": "CEG"
+  },
+  {
+    "date": "2026-08-12",
+    "score": 56,
+    "buy_percent": 27,
+    "hold_percent": 54,
+    "sell_percent": 19,
+    "leader": "CEG"
   }
 ]
