@@ -158,5 +158,13 @@
     "hold_percent": 49,
     "sell_percent": 19,
     "leader": "NVDA"
+  },
+  {
+    "date": "2026-08-14",
+    "score": 58,
+    "buy_percent": 29,
+    "hold_percent": 51,
+    "sell_percent": 20,
+    "leader": "CEG"
   }
 ]
