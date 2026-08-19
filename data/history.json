@@ -182,5 +182,13 @@
     "hold_percent": 39,
     "sell_percent": 24,
     "leader": "CEG"
+  },
+  {
+    "date": "2026-08-19",
+    "score": 58,
+    "buy_percent": 32,
+    "hold_percent": 49,
+    "sell_percent": 19,
+    "leader": "MSFT"
   }
 ]
