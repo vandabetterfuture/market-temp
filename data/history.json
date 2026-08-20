@@ -190,5 +190,13 @@
     "hold_percent": 49,
     "sell_percent": 19,
     "leader": "MSFT"
+  },
+  {
+    "date": "2026-08-20",
+    "score": 57,
+    "buy_percent": 32,
+    "hold_percent": 44,
+    "sell_percent": 24,
+    "leader": "MSFT"
   }
 ]
