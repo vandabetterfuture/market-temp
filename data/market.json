@@ -1,73 +1,93 @@
 {
-  "generated_at": "2026-08-20T15:07:18.000871+00:00",
+  "generated_at": "2026-08-21T13:56:05.874395+00:00",
   "market_status": "Latest available close",
   "market_temperature": {
     "label": "Neutral / Selective",
-    "score": 57,
-    "buy_percent": 32,
+    "score": 54,
+    "buy_percent": 27,
     "hold_percent": 44,
-    "sell_percent": 24
+    "sell_percent": 29
   },
   "market_metrics": [
     {
       "label": "S&P 500",
-      "value": "767.19 (-0.24%)",
-      "change_percent": -0.24
+      "value": "764.47 (+0.25%)",
+      "change_percent": 0.25
     },
     {
       "label": "Nasdaq 100",
-      "value": "712.51 (-0.50%)",
-      "change_percent": -0.5
+      "value": "710.73 (-0.03%)",
+      "change_percent": -0.03
     },
     {
       "label": "VIX",
-      "value": "15.72",
-      "change_percent": -5.57
+      "value": "15.48",
+      "change_percent": 3.31
     },
     {
       "label": "Russell 2000",
-      "value": "299.21 (-0.83%)",
-      "change_percent": -0.83
+      "value": "299.54 (+0.63%)",
+      "change_percent": 0.63
     }
   ],
   "candidates": [
     {
-      "ticker": "MSFT",
+      "ticker": "ANET",
       "signal": "BUY",
       "score": 90,
-      "price": 480.59,
-      "change_percent": -0.77,
-      "rsi": 58.4,
+      "price": 188.2,
+      "change_percent": 2.42,
+      "rsi": 52.1,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, strong one-month strength."
     },
     {
-      "ticker": "MA",
+      "ticker": "NOW",
       "signal": "BUY",
       "score": 90,
-      "price": 578.37,
-      "change_percent": 0.81,
-      "rsi": 54.5,
-      "risk": "Low",
+      "price": 129.29,
+      "change_percent": -0.35,
+      "rsi": 67.9,
+      "risk": "Medium",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, strong one-month strength."
+    },
+    {
+      "ticker": "NFLX",
+      "signal": "BUY",
+      "score": 90,
+      "price": 79.52,
+      "change_percent": -0.77,
+      "rsi": 68.0,
+      "risk": "Medium",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, strong one-month strength."
+    },
+    {
+      "ticker": "SNOW",
+      "signal": "BUY",
+      "score": 90,
+      "price": 320.39,
+      "change_percent": -0.28,
+      "rsi": 61.9,
+      "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, strong one-month strength."
     },
     {
       "ticker": "SCHG",
       "signal": "BUY",
       "score": 82,
-      "price": 35.3,
-      "change_percent": -0.45,
-      "rsi": 66.3,
+      "price": 35.14,
+      "change_percent": 0.11,
+      "rsi": 54.6,
       "risk": "Low",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
     },
     {
-      "ticker": "AAPL",
+      "ticker": "NVDA",
       "signal": "BUY",
       "score": 82,
-      "price": 317.46,
-      "change_percent": 0.2,
-      "rsi": 60.5,
+      "price": 216.21,
+      "change_percent": -0.3,
+      "rsi": 61.6,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
     },
@@ -75,99 +95,59 @@
       "ticker": "V",
       "signal": "BUY",
       "score": 82,
-      "price": 368.81,
-      "change_percent": 0.89,
-      "rsi": 53.8,
+      "price": 367.8,
+      "change_percent": 0.57,
+      "rsi": 53.3,
       "risk": "Low",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
     },
     {
+      "ticker": "MA",
+      "signal": "BUY",
+      "score": 82,
+      "price": 575.65,
+      "change_percent": 0.31,
+      "rsi": 54.3,
+      "risk": "Low",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
+    },
+    {
+      "ticker": "MSFT",
+      "signal": "BUY",
+      "score": 80,
+      "price": 481.68,
+      "change_percent": 0.11,
+      "rsi": 46.4,
+      "risk": "Medium",
+      "reason": "Above 20-day trend, positive intermediate trend, strong one-month strength."
+    },
+    {
       "ticker": "LLY",
       "signal": "BUY",
-      "score": 82,
-      "price": 1264.98,
-      "change_percent": -1.2,
-      "rsi": 67.4,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
-    },
-    {
-      "ticker": "CEG",
-      "signal": "BUY",
-      "score": 82,
-      "price": 276.38,
-      "change_percent": 0.81,
-      "rsi": 60.1,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
-    },
-    {
-      "ticker": "AMZN",
-      "signal": "BUY",
-      "score": 80,
-      "price": 260.75,
-      "change_percent": -1.91,
-      "rsi": 41.0,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, positive intermediate trend, strong one-month strength."
-    },
-    {
-      "ticker": "NOW",
-      "signal": "BUY",
-      "score": 80,
-      "price": 129.55,
-      "change_percent": 1.85,
-      "rsi": 70.6,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, positive intermediate trend, strong one-month strength."
-    },
-    {
-      "ticker": "NFLX",
-      "signal": "BUY",
-      "score": 80,
-      "price": 79.85,
-      "change_percent": -0.46,
-      "rsi": 72.0,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, positive intermediate trend, strong one-month strength."
-    },
-    {
-      "ticker": "SNOW",
-      "signal": "BUY",
-      "score": 80,
-      "price": 321.0,
-      "change_percent": -1.23,
-      "rsi": 70.5,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, positive intermediate trend, strong one-month strength."
-    },
-    {
-      "ticker": "NVDA",
-      "signal": "BUY",
       "score": 72,
-      "price": 217.53,
-      "change_percent": -0.01,
-      "rsi": 68.4,
+      "price": 1250.23,
+      "change_percent": 0.47,
+      "rsi": 69.4,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend."
     },
     {
-      "ticker": "PANW",
+      "ticker": "CEG",
       "signal": "BUY",
-      "score": 70,
-      "price": 355.54,
-      "change_percent": -1.17,
-      "rsi": 59.8,
+      "score": 72,
+      "price": 272.14,
+      "change_percent": -0.28,
+      "rsi": 49.0,
       "risk": "Medium",
-      "reason": "Below 20-day trend, positive intermediate trend, healthy momentum, strong one-month strength."
+      "reason": "Above 20-day trend, positive intermediate trend."
     },
     {
       "ticker": "PLTR",
       "signal": "HOLD",
       "score": 66,
-      "price": 174.82,
-      "change_percent": -0.21,
-      "rsi": 79.0,
+      "price": 173.43,
+      "change_percent": -0.3,
+      "rsi": 77.1,
       "risk": "High",
       "reason": "Above 20-day trend, positive intermediate trend, overbought momentum, strong one-month strength."
     },
@@ -175,39 +155,19 @@
       "ticker": "ORCL",
       "signal": "HOLD",
       "score": 66,
-      "price": 142.07,
-      "change_percent": -1.21,
-      "rsi": 60.5,
+      "price": 146.89,
+      "change_percent": 3.39,
+      "rsi": 54.9,
       "risk": "Medium",
       "reason": "Above 20-day trend, weak intermediate trend, healthy momentum, strong one-month strength."
     },
     {
-      "ticker": "CRWD",
+      "ticker": "AAPL",
       "signal": "HOLD",
       "score": 62,
-      "price": 194.32,
-      "change_percent": -3.63,
-      "rsi": 52.2,
-      "risk": "Medium",
-      "reason": "Below 20-day trend, positive intermediate trend, healthy momentum."
-    },
-    {
-      "ticker": "ANET",
-      "signal": "HOLD",
-      "score": 62,
-      "price": 185.94,
-      "change_percent": -0.27,
-      "rsi": 53.6,
-      "risk": "Medium",
-      "reason": "Below 20-day trend, positive intermediate trend, healthy momentum."
-    },
-    {
-      "ticker": "ETN",
-      "signal": "HOLD",
-      "score": 62,
-      "price": 421.44,
-      "change_percent": -0.76,
-      "rsi": 53.6,
+      "price": 307.21,
+      "change_percent": -1.31,
+      "rsi": 54.4,
       "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend, healthy momentum."
     },
@@ -215,9 +175,9 @@
       "ticker": "RXRX",
       "signal": "HOLD",
       "score": 61,
-      "price": 3.35,
-      "change_percent": -4.43,
-      "rsi": 61.5,
+      "price": 3.44,
+      "change_percent": 2.99,
+      "rsi": 59.2,
       "risk": "High",
       "reason": "Above 20-day trend, weak intermediate trend, healthy momentum, strong one-month strength."
     },
@@ -225,9 +185,9 @@
       "ticker": "IONQ",
       "signal": "HOLD",
       "score": 61,
-      "price": 40.69,
-      "change_percent": -6.16,
-      "rsi": 58.6,
+      "price": 42.65,
+      "change_percent": 2.7,
+      "rsi": 58.4,
       "risk": "High",
       "reason": "Above 20-day trend, weak intermediate trend, healthy momentum, strong one-month strength."
     },
@@ -235,9 +195,9 @@
       "ticker": "TSM",
       "signal": "HOLD",
       "score": 58,
-      "price": 415.72,
-      "change_percent": 0.88,
-      "rsi": 58.6,
+      "price": 419.99,
+      "change_percent": 0.96,
+      "rsi": 60.0,
       "risk": "Medium",
       "reason": "Above 20-day trend, weak intermediate trend, healthy momentum."
     },
@@ -245,59 +205,39 @@
       "ticker": "ASML",
       "signal": "HOLD",
       "score": 58,
-      "price": 1767.45,
-      "change_percent": 0.9,
-      "rsi": 64.1,
+      "price": 1748.03,
+      "change_percent": -0.13,
+      "rsi": 61.3,
       "risk": "Medium",
       "reason": "Above 20-day trend, weak intermediate trend, healthy momentum."
     },
     {
       "ticker": "TSLA",
       "signal": "HOLD",
-      "score": 58,
-      "price": 341.21,
-      "change_percent": -2.82,
-      "rsi": 67.3,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, weak intermediate trend, healthy momentum."
-    },
-    {
-      "ticker": "SNPS",
-      "signal": "HOLD",
-      "score": 58,
-      "price": 400.4,
-      "change_percent": -0.21,
-      "rsi": 58.2,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, weak intermediate trend, healthy momentum."
-    },
-    {
-      "ticker": "QCOM",
-      "signal": "HOLD",
-      "score": 58,
-      "price": 164.97,
-      "change_percent": 1.89,
-      "rsi": 67.3,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, weak intermediate trend, healthy momentum."
-    },
-    {
-      "ticker": "ISRG",
-      "signal": "HOLD",
       "score": 56,
-      "price": 392.37,
-      "change_percent": -1.35,
-      "rsi": 72.0,
+      "price": 350.18,
+      "change_percent": 1.46,
+      "rsi": 68.2,
       "risk": "Medium",
       "reason": "Above 20-day trend, weak intermediate trend, strong one-month strength."
+    },
+    {
+      "ticker": "AMZN",
+      "signal": "HOLD",
+      "score": 54,
+      "price": 258.44,
+      "change_percent": -0.64,
+      "rsi": 24.4,
+      "risk": "Medium",
+      "reason": "Below 20-day trend, positive intermediate trend, weak momentum, strong one-month strength."
     },
     {
       "ticker": "AVGO",
       "signal": "HOLD",
       "score": 52,
-      "price": 364.72,
-      "change_percent": 0.62,
-      "rsi": 38.8,
+      "price": 367.31,
+      "change_percent": 0.9,
+      "rsi": 38.6,
       "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend."
     },
@@ -305,193 +245,253 @@
       "ticker": "BRK.B",
       "signal": "HOLD",
       "score": 52,
-      "price": 499.58,
-      "change_percent": -0.01,
-      "rsi": 40.5,
+      "price": 498.07,
+      "change_percent": 0.24,
+      "rsi": 38.4,
       "risk": "Low",
+      "reason": "Below 20-day trend, positive intermediate trend."
+    },
+    {
+      "ticker": "CRWD",
+      "signal": "HOLD",
+      "score": 52,
+      "price": 189.6,
+      "change_percent": -0.39,
+      "rsi": 41.2,
+      "risk": "Medium",
+      "reason": "Below 20-day trend, positive intermediate trend."
+    },
+    {
+      "ticker": "PANW",
+      "signal": "HOLD",
+      "score": 52,
+      "price": 346.45,
+      "change_percent": -0.89,
+      "rsi": 49.7,
+      "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend."
     },
     {
       "ticker": "COST",
       "signal": "HOLD",
       "score": 52,
-      "price": 936.77,
-      "change_percent": -2.11,
-      "rsi": 42.0,
+      "price": 941.97,
+      "change_percent": 0.91,
+      "rsi": 44.2,
       "risk": "Low",
+      "reason": "Below 20-day trend, positive intermediate trend."
+    },
+    {
+      "ticker": "ETN",
+      "signal": "HOLD",
+      "score": 52,
+      "price": 420.54,
+      "change_percent": 1.26,
+      "rsi": 40.6,
+      "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend."
     },
     {
       "ticker": "MRVL",
       "signal": "HOLD",
       "score": 51,
-      "price": 242.73,
-      "change_percent": 2.3,
-      "rsi": 71.5,
+      "price": 246.1,
+      "change_percent": -1.96,
+      "rsi": 69.3,
       "risk": "High",
       "reason": "Above 20-day trend, weak intermediate trend, strong one-month strength, high volatility."
+    },
+    {
+      "ticker": "ISRG",
+      "signal": "HOLD",
+      "score": 46,
+      "price": 375.68,
+      "change_percent": 0.32,
+      "rsi": 50.2,
+      "risk": "Medium",
+      "reason": "Below 20-day trend, weak intermediate trend, healthy momentum, strong one-month strength."
+    },
+    {
+      "ticker": "MU",
+      "signal": "HOLD",
+      "score": 43,
+      "price": 977.59,
+      "change_percent": 0.34,
+      "rsi": 70.5,
+      "risk": "High",
+      "reason": "Above 20-day trend, weak intermediate trend, high volatility."
+    },
+    {
+      "ticker": "TEM",
+      "signal": "SELL",
+      "score": 42,
+      "price": 67.58,
+      "change_percent": 1.4,
+      "rsi": 79.9,
+      "risk": "High",
+      "reason": "Above 20-day trend, weak intermediate trend, overbought momentum, strong one-month strength."
     }
   ],
   "starter_allocation": [
     {
-      "ticker": "MSFT",
+      "ticker": "ANET",
       "amount": 12.5,
       "reason": "Score 90 \u2022 Medium risk"
     },
     {
-      "ticker": "MA",
+      "ticker": "NOW",
       "amount": 7.5,
-      "reason": "Score 90 \u2022 Low risk"
+      "reason": "Score 90 \u2022 Medium risk"
     },
     {
-      "ticker": "SCHG",
+      "ticker": "NFLX",
       "amount": 5.0,
-      "reason": "Score 82 \u2022 Low risk"
+      "reason": "Score 90 \u2022 Medium risk"
     }
   ],
   "market_notes": [
-    "32% of the watchlist qualifies as Buy.",
-    "Average score is 57/100: Neutral / Selective.",
-    "MSFT leads with 90/100."
+    "27% of the watchlist qualifies as Buy.",
+    "Average score is 54/100: Neutral / Selective.",
+    "ANET leads with 90/100."
   ],
   "sectors": [
     {
-      "name": "Energy",
-      "ticker": "XLE",
-      "change_percent": 5.54
-    },
-    {
       "name": "Healthcare",
       "ticker": "XLV",
-      "change_percent": 3.58
+      "change_percent": 3.78
     },
     {
-      "name": "Utilities",
-      "ticker": "XLU",
-      "change_percent": 0.4
-    },
-    {
-      "name": "Financials",
-      "ticker": "XLF",
-      "change_percent": -1.1
+      "name": "Energy",
+      "ticker": "XLE",
+      "change_percent": 3.27
     },
     {
       "name": "Consumer Discretionary",
       "ticker": "XLY",
-      "change_percent": -1.43
+      "change_percent": -0.99
+    },
+    {
+      "name": "Financials",
+      "ticker": "XLF",
+      "change_percent": -1.04
+    },
+    {
+      "name": "Utilities",
+      "ticker": "XLU",
+      "change_percent": -1.51
     },
     {
       "name": "Industrials",
       "ticker": "XLI",
-      "change_percent": -2.15
+      "change_percent": -3.17
     },
     {
       "name": "Technology",
       "ticker": "XLK",
-      "change_percent": -3.59
+      "change_percent": -3.74
     },
     {
       "name": "Semiconductors",
       "ticker": "SMH",
-      "change_percent": -4.34
+      "change_percent": -4.36
     }
   ],
   "news": [
     {
       "ticker": "NVDA",
-      "title": "This Billionaire Was Recently Loading Up on \"Magnificent Seven\" Stocks",
-      "link": "https://www.fool.com/investing/2026/08/20/this-billionaire-was-loading-up-on-magnificent/",
-      "publisher": "Motley Fool",
-      "summary": "David Tepper added shares of Amazon, Meta, Alphabet, and Nvidia to his portfolio in Q2.",
-      "published": "2026-08-20T15:03:00Z"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Meta Falls Far Behind Amazon, Alphabet, and Microsoft In AI",
-      "link": "https://247wallst.com/investing/2026/08/20/meta-falls-far-behind-amazon-alphabet-and-microsoft-in-ai/",
+      "title": "A U.S. Debt Crisis May Be Brewing: The Treasury Just Doubled Its Bond Buybacks at $40 Trillion",
+      "link": "https://247wallst.com/investing/2026/08/21/a-u-s-debt-crisis-may-be-brewing-the-treasury-just-doubled-its-bond-buybacks-at-40-trillion/",
       "publisher": "24/7 Wall St.",
-      "summary": "The AI market cap race among the biggest tech giants reveals a brutal reshuffling of power, and one social media behemoth is watching its AI ambitions get priced into irrelevance while a private upstart threatens to leapfrog it entirely.",
-      "published": "2026-08-20T14:48:06Z"
+      "summary": "The Treasury just doubled bond buybacks on its longest debt without telling its own advisory committee first, and the market noticed. Here is what that procedural choice signals about who is actually in control of U.S. borrowing costs.",
+      "published": "2026-08-21T13:45:34Z"
     },
     {
       "ticker": "NVDA",
-      "title": "The Dividend Yield on Barrick Mining Just Crossed 2%. Here's Why It's Sustainable.",
-      "link": "https://www.fool.com/investing/2026/08/20/the-dividend-yield-on-barrick-mining-just-crossed/",
-      "publisher": "Motley Fool",
-      "summary": "Barrick saw attributable adjusted EBITDA and earnings rise in the second quarter.",
-      "published": "2026-08-20T14:43:00Z"
+      "title": "A Hedge\u2011Fund Stampede Into This Deep-Value Stock Could Mark the Start of a Steep Rebound",
+      "link": "https://247wallst.com/investing/2026/08/21/a-hedge%e2%80%91fund-stampede-into-this-deep-value-stock-could-mark-the-start-of-a-steep-rebound/",
+      "publisher": "24/7 Wall St.",
+      "summary": "Hedge fund legends Seth Klarman and Paul Singer quietly loaded up on a battered cruise stock sitting near its pandemic lows, and their timing raises a question every value investor should be asking right now.",
+      "published": "2026-08-21T13:40:30Z"
     },
     {
       "ticker": "NVDA",
-      "title": "Why Bristol Myers, Johnson & Johnson and More Are Watching Seaport After IPO",
-      "link": "https://247wallst.com/investing/2026/08/20/why-bristol-myers-johnson-johnson-and-more-are-watching-seaport-after-ipo/",
+      "title": "Robinhood Advances 5%, Webull Ticks Up as Bitcoin\u2019s Breakout Lifts Retail Brokerages",
+      "link": "https://247wallst.com/investing/2026/08/21/robinhood-advances-5-webull-ticks-up-as-bitcoins-breakout-lifts-retail-brokerages/",
       "publisher": "24/7 Wall St.",
-      "summary": "Seaport Therapeutics just went public with a prodrug platform that has attracted board members from two of the biggest neuroscience acquisitions in recent history. The question is whether the same giants who funded those deals are already circling for a third.",
-      "published": "2026-08-20T14:40:31Z"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Satellite maker Muon Space valued at $1.5 billion, source says",
-      "link": "https://finance.yahoo.com/technology/articles/satellite-maker-muon-space-valued-143324210.html",
-      "publisher": "Reuters",
-      "summary": "By Prathik Jayaprakash Aug 20 (Reuters) - Satellite-constellation developer Muon Space has raised $250 million in a Series C funding round as it looks to expand manufacturing capacity amid rising",
-      "published": "2026-08-20T14:33:24Z"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Search and Cloud Strength Drive Alphabet\u2019s (GOOG) Rally",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/search-cloud-strength-drive-alphabet-143014236.html",
-      "publisher": "Insider Monkey",
-      "summary": "Madison Investments, an investment advisor, released its second-quarter 2026 investor letter for the \u201cMadison Large Cap Fund\u201d. A copy of the letter can be downloaded here. In the second quarter, U.S. stock market indices achieved their best performance since 2020, driven largely ",
-      "published": "2026-08-20T14:30:14Z"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Meta Quietly Becomes One of Microsoft's Biggest AI Customers",
-      "link": "https://finance.yahoo.com/technology/ai/articles/meta-quietly-becomes-one-microsofts-141742063.html",
-      "publisher": "GuruFocus.com",
-      "summary": "The social giant is spending hundreds of millions on Azure models.",
-      "published": "2026-08-20T14:17:42Z"
-    },
-    {
-      "ticker": "SPY",
-      "title": "History Says 2026\u2019s Market Rally Starts in 42 Days, Per JP Morgan Data",
-      "link": "https://247wallst.com/investing/2026/08/20/history-says-2026s-market-rally-starts-in-42-days-per-jp-morgan-data/",
-      "publisher": "24/7 Wall St.",
-      "summary": "A viral JPMorgan chart promises a powerful Q4 surge in midterm election years, but the historical setup it requires looks nothing like what the market has actually done in 2026, and that contradiction has serious implications for anyone counting on a seasonal rescue.",
-      "published": "2026-08-20T14:13:37Z"
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Prediction: Apple Is Entering Its Most Important Product Cycle in Years",
-      "link": "https://247wallst.com/investing/2026/08/20/prediction-apple-is-entering-its-most-important-product-cycle-in-years/",
-      "publisher": "24/7 Wall St.",
-      "summary": "Apple is stacking catalysts at a pace the market has not seen in years, and the collision of new silicon, a redesigned iPhone lineup, and a long-awaited Siri AI reveal sets up a moment where getting the call wrong carries serious cost.",
-      "published": "2026-08-20T14:00:07Z"
-    },
-    {
-      "ticker": "AMD",
-      "title": "Alphabet\u2019s Waymo Has Built a Custom Chip for Its Robotaxis",
-      "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-waymo-built-custom-chip-140000003.html",
-      "publisher": "Bloomberg",
-      "summary": "Alphabet Inc.\u2019s Waymo has built a custom chip that the company said will improve the performance of its robotaxis, while also diversifying its chip supply beyond third-party companies such as Nvidia Corp.",
-      "published": "2026-08-20T14:00:00Z"
-    },
-    {
-      "ticker": "AMD",
-      "title": "The Upside Case For Qualcomm Stock Now Carries Purchase Orders",
-      "link": "https://www.trefis.com/articles/612018/the-upside-case-for-qualcomm-stock-now-carries-purchase-orders/2026-08-20",
-      "publisher": "Trefis",
-      "summary": "Qualcomm's non-handset business is inflecting fast enough that management expects it to replace the revenue Apple is taking away, and the first proof of that arrives in the December quarter.",
-      "published": "2026-08-20T13:49:34Z"
+      "summary": "Bitcoin's sharp breakout is sending shockwaves through retail brokerage stocks, but Robinhood and Webull are catching the move in very different ways, and the gap between them reveals something important about how each company is actually built.",
+      "published": "2026-08-21T13:38:26Z"
     },
     {
       "ticker": "QQQ",
-      "title": "Fed Signals Conditional Rate Hike Trigger as AI Repricing Risk Takes Center Stage",
-      "link": "https://247wallst.com/investing/2026/08/20/fed-signals-conditional-rate-hike-trigger-as-ai-repricing-risk-takes-center-stage/",
+      "title": "QQQ Cut Its Fee After 26 Years. On $250,000, the VGT ETF Still Saves You $225 Every Year",
+      "link": "https://247wallst.com/investing/etf/2026/08/21/qqq-cut-its-fee-after-26-years-on-250000-the-vgt-etf-still-saves-you-225-every-year/",
       "publisher": "24/7 Wall St.",
-      "summary": "The Fed just named a specific market risk it had never flagged this openly, and buried inside the July minutes is a precise trigger that would force officials back into hiking mode.",
-      "published": "2026-08-20T13:38:15Z"
+      "summary": "After 26 years locked at the same price, QQQ finally cut its fee, and it still costs twice as much as its closest rival. Whether that gap matters depends on a distinction most investors have never thought to make.",
+      "published": "2026-08-21T13:25:29Z"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon-Backed Anthropic Needs $1.2 Trillion in Revenue to Justify $2 Trillion Valuation, 'Dean of Valuation' Says",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/08/61354241/anthropic-2-trillion-valuation-revenue?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
+      "publisher": "Benzinga Prediction Markets",
+      "summary": "Anthropic would need to generate roughly $1.2 trillion in annual revenue within a decade to justify a potential $2 trillion valuation, according to NYU finance professor Aswath Damodaran.That target is roughly 18 times Anthropic\u2019s July revenue run rate of more...",
+      "published": "2026-08-21T13:21:01Z"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Microsoft Spent $115.9 Billion on AI. What Did Shareholders Get?",
+      "link": "https://247wallst.com/investing/2026/08/21/microsoft-spent-115-9-billion-on-ai-what-did-shareholders-get/",
+      "publisher": "24/7 Wall St.",
+      "summary": "Microsoft just handed shareholders a dividend raise while simultaneously pouring more cash into AI infrastructure than most companies generate in revenue. Whether that historic spending spree is building long-term wealth or quietly squeezing the payout depends on what happens in ",
+      "published": "2026-08-21T13:19:50Z"
+    },
+    {
+      "ticker": "SPY",
+      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Bitcoin Moves Past $77,000",
+      "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-131505482.html",
+      "publisher": "MT Newswires",
+      "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad",
+      "published": "2026-08-21T13:15:05Z"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "What Biogen (BIIB)'s Higher Earnings Guidance and Late-Stage Pipeline Progress Means For Shareholders",
+      "link": "https://finance.yahoo.com/healthcare/articles/biogen-biib-higher-earnings-guidance-131337483.html",
+      "publisher": "Simply Wall St.",
+      "summary": "In recent months, Biogen raised its non-GAAP earnings guidance after strong commercial execution and a pivot toward growth products helped counter ongoing declines in its legacy multiple sclerosis portfolio. This improved outlook, combined with investor attention on five upcoming",
+      "published": "2026-08-21T13:13:37Z"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Meta (META) Quietly Became A Major AI Customer While Building Its Own API Business",
+      "link": "https://finance.yahoo.com/technology/ai/articles/meta-meta-quietly-became-major-131235971.html",
+      "publisher": "Simply Wall St.",
+      "summary": "Meta Platforms (NasdaqGS:META) has become one of Microsoft's largest AI customers, according to recent internal discussions. The company is exploring a new API business that could let external developers tap Meta's own AI infrastructure. The plan aims to reduce Meta's reliance on",
+      "published": "2026-08-21T13:12:35Z"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Wall Street Is Bullish on These 3 Tech Giants. Here\u2019s Where I\u2019d Put My Money",
+      "link": "https://247wallst.com/investing/2026/08/21/wall-street-is-bullish-on-these-3-tech-giants-heres-where-id-put-my-money/",
+      "publisher": "24/7 Wall St.",
+      "summary": "Wall Street just upgraded three of the biggest names in tech, but bullish consensus and the best investment are two very different things. One of these giants trades at a fraction of its peers' multiples while growing faster than either of them.",
+      "published": "2026-08-21T13:00:20Z"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Advertising's Agentic Playbook",
+      "link": "https://www.mediapost.com/publications/article/417384/ai-buys-it-microsoft-advertising-agentic-playbook.html",
+      "publisher": "MediaPost",
+      "summary": "Microsoft Advertising on Friday released an agentic commerce blueprint to guide businesses, retailers, and developers into the massive shift when AI agents make purchases on behalf of humans.",
+      "published": "2026-08-21T13:00:00Z"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Tesla, Waymo, Uber Granted Las Vegas Robotaxi Permits",
+      "link": "https://www.investors.com/news/tesla-waymo-uber-robotaxi-las-vegas-self-driving-cars-tech-stocks/?src=A00220&yptr=yahoo",
+      "publisher": "Investor's Business Daily",
+      "summary": "Nevada regulators voted Thursday to approve Las Vegas robotaxi permits for Tesla, Uber and Google's Waymo. They'll join Amazon's Zoox.",
+      "published": "2026-08-21T12:56:01Z"
     }
   ],
   "portfolio": {
@@ -701,6 +701,14 @@
       "hold_percent": 44,
       "sell_percent": 24,
       "leader": "MSFT"
+    },
+    {
+      "date": "2026-08-21",
+      "score": 54,
+      "buy_percent": 27,
+      "hold_percent": 44,
+      "sell_percent": 29,
+      "leader": "ANET"
     }
   ]
 }
