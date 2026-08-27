@@ -230,5 +230,13 @@
     "hold_percent": 49,
     "sell_percent": 19,
     "leader": "ANET"
+  },
+  {
+    "date": "2026-08-27",
+    "score": 59,
+    "buy_percent": 37,
+    "hold_percent": 41,
+    "sell_percent": 22,
+    "leader": "MSFT"
   }
 ]
