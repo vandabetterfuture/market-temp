@@ -262,5 +262,13 @@
     "hold_percent": 41,
     "sell_percent": 37,
     "leader": "PLTR"
+  },
+  {
+    "date": "2026-09-02",
+    "score": 52,
+    "buy_percent": 22,
+    "hold_percent": 49,
+    "sell_percent": 29,
+    "leader": "NOW"
   }
 ]
