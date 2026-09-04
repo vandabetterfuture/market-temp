@@ -278,5 +278,13 @@
     "hold_percent": 37,
     "sell_percent": 29,
     "leader": "PLTR"
+  },
+  {
+    "date": "2026-09-04",
+    "score": 57,
+    "buy_percent": 34,
+    "hold_percent": 46,
+    "sell_percent": 20,
+    "leader": "CEG"
   }
 ]
