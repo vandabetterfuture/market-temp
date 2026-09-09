@@ -302,5 +302,13 @@
     "hold_percent": 44,
     "sell_percent": 22,
     "leader": "MU"
+  },
+  {
+    "date": "2026-09-09",
+    "score": 53,
+    "buy_percent": 24,
+    "hold_percent": 49,
+    "sell_percent": 27,
+    "leader": "ORCL"
   }
 ]
