@@ -310,5 +310,13 @@
     "hold_percent": 49,
     "sell_percent": 27,
     "leader": "ORCL"
+  },
+  {
+    "date": "2026-09-10",
+    "score": 50,
+    "buy_percent": 15,
+    "hold_percent": 59,
+    "sell_percent": 26,
+    "leader": "TSM"
   }
 ]
