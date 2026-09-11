@@ -1,43 +1,53 @@
 {
-  "generated_at": "2026-09-10T16:58:45.885581+00:00",
+  "generated_at": "2026-09-11T17:00:31.965874+00:00",
   "market_status": "Latest available close",
   "market_temperature": {
     "label": "Neutral / Selective",
-    "score": 50,
-    "buy_percent": 15,
-    "hold_percent": 59,
-    "sell_percent": 26
+    "score": 49,
+    "buy_percent": 22,
+    "hold_percent": 46,
+    "sell_percent": 32
   },
   "market_metrics": [
     {
       "label": "S&P 500",
-      "value": "759.25 (-0.41%)",
-      "change_percent": -0.41
+      "value": "765.82 (+1.05%)",
+      "change_percent": 1.05
     },
     {
       "label": "Nasdaq 100",
-      "value": "711.14 (-0.72%)",
-      "change_percent": -0.72
+      "value": "716.33 (+1.08%)",
+      "change_percent": 1.08
     },
     {
       "label": "VIX",
-      "value": "17.46",
-      "change_percent": -6.08
+      "value": "15.77",
+      "change_percent": 11.6
     },
     {
       "label": "Russell 2000",
-      "value": "288.34 (-0.79%)",
-      "change_percent": -0.79
+      "value": "289.60 (+0.66%)",
+      "change_percent": 0.66
     }
   ],
   "candidates": [
     {
+      "ticker": "MSFT",
+      "signal": "BUY",
+      "score": 82,
+      "price": 494.57,
+      "change_percent": 0.43,
+      "rsi": 56.9,
+      "risk": "Low",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
+    },
+    {
       "ticker": "TSM",
       "signal": "BUY",
       "score": 82,
-      "price": 430.54,
-      "change_percent": -1.11,
-      "rsi": 59.6,
+      "price": 432.88,
+      "change_percent": 1.13,
+      "rsi": 58.7,
       "risk": "Low",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
     },
@@ -45,9 +55,39 @@
       "ticker": "CEG",
       "signal": "BUY",
       "score": 82,
-      "price": 287.2,
-      "change_percent": -2.28,
-      "rsi": 61.3,
+      "price": 286.18,
+      "change_percent": 0.07,
+      "rsi": 60.3,
+      "risk": "Medium",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
+    },
+    {
+      "ticker": "ANET",
+      "signal": "BUY",
+      "score": 82,
+      "price": 198.48,
+      "change_percent": 5.02,
+      "rsi": 58.8,
+      "risk": "Medium",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
+    },
+    {
+      "ticker": "ETN",
+      "signal": "BUY",
+      "score": 82,
+      "price": 423.21,
+      "change_percent": 3.44,
+      "rsi": 51.9,
+      "risk": "Medium",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
+    },
+    {
+      "ticker": "TSLA",
+      "signal": "BUY",
+      "score": 82,
+      "price": 365.25,
+      "change_percent": 0.46,
+      "rsi": 50.9,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
     },
@@ -55,9 +95,9 @@
       "ticker": "ORCL",
       "signal": "BUY",
       "score": 82,
-      "price": 156.64,
-      "change_percent": -3.09,
-      "rsi": 63.1,
+      "price": 151.52,
+      "change_percent": -0.93,
+      "rsi": 54.5,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
     },
@@ -65,109 +105,49 @@
       "ticker": "MU",
       "signal": "BUY",
       "score": 82,
-      "price": 979.87,
-      "change_percent": -4.66,
-      "rsi": 50.9,
+      "price": 977.11,
+      "change_percent": -0.03,
+      "rsi": 51.6,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
     },
     {
-      "ticker": "CRWD",
-      "signal": "BUY",
-      "score": 77,
-      "price": 213.76,
-      "change_percent": 2.87,
-      "rsi": 59.4,
-      "risk": "High",
-      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, high volatility."
-    },
-    {
-      "ticker": "SNOW",
-      "signal": "BUY",
-      "score": 77,
-      "price": 334.26,
-      "change_percent": 0.84,
-      "rsi": 54.3,
-      "risk": "High",
-      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, high volatility."
-    },
-    {
       "ticker": "MRVL",
-      "signal": "HOLD",
-      "score": 67,
-      "price": 230.16,
-      "change_percent": -2.06,
-      "rsi": 40.5,
+      "signal": "BUY",
+      "score": 77,
+      "price": 238.24,
+      "change_percent": 4.97,
+      "rsi": 50.5,
       "risk": "High",
-      "reason": "Above 20-day trend, positive intermediate trend, high volatility."
-    },
-    {
-      "ticker": "TSLA",
-      "signal": "HOLD",
-      "score": 66,
-      "price": 365.97,
-      "change_percent": -0.5,
-      "rsi": 57.3,
-      "risk": "Medium",
-      "reason": "Above 20-day trend, weak intermediate trend, healthy momentum, strong one-month strength."
-    },
-    {
-      "ticker": "MSFT",
-      "signal": "HOLD",
-      "score": 62,
-      "price": 493.86,
-      "change_percent": 0.45,
-      "rsi": 57.7,
-      "risk": "Low",
-      "reason": "Below 20-day trend, positive intermediate trend, healthy momentum."
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, high volatility."
     },
     {
       "ticker": "NVDA",
       "signal": "HOLD",
       "score": 62,
-      "price": 218.72,
-      "change_percent": -2.21,
-      "rsi": 51.2,
+      "price": 219.18,
+      "change_percent": 0.38,
+      "rsi": 53.1,
       "risk": "Medium",
-      "reason": "Below 20-day trend, positive intermediate trend, healthy momentum."
-    },
-    {
-      "ticker": "V",
-      "signal": "HOLD",
-      "score": 62,
-      "price": 367.39,
-      "change_percent": -0.0,
-      "rsi": 51.6,
-      "risk": "Low",
       "reason": "Below 20-day trend, positive intermediate trend, healthy momentum."
     },
     {
       "ticker": "SNPS",
       "signal": "HOLD",
       "score": 62,
-      "price": 399.23,
-      "change_percent": 1.53,
+      "price": 399.1,
+      "change_percent": 0.49,
       "rsi": 50.4,
       "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend, healthy momentum."
     },
     {
-      "ticker": "AAPL",
-      "signal": "HOLD",
-      "score": 58,
-      "price": 323.55,
-      "change_percent": 2.6,
-      "rsi": 62.5,
-      "risk": "Low",
-      "reason": "Above 20-day trend, weak intermediate trend, healthy momentum."
-    },
-    {
       "ticker": "AMD",
       "signal": "HOLD",
       "score": 58,
-      "price": 505.97,
-      "change_percent": -2.9,
-      "rsi": 61.4,
+      "price": 513.33,
+      "change_percent": 1.93,
+      "rsi": 61.9,
       "risk": "Medium",
       "reason": "Above 20-day trend, weak intermediate trend, healthy momentum."
     },
@@ -175,39 +155,29 @@
       "ticker": "NOW",
       "signal": "HOLD",
       "score": 57,
-      "price": 132.5,
-      "change_percent": 1.06,
-      "rsi": 52.2,
+      "price": 132.21,
+      "change_percent": 0.8,
+      "rsi": 53.1,
       "risk": "High",
       "reason": "Below 20-day trend, positive intermediate trend, healthy momentum, high volatility."
     },
     {
-      "ticker": "TEM",
+      "ticker": "AAPL",
       "signal": "HOLD",
-      "score": 55,
-      "price": 59.17,
-      "change_percent": -3.45,
-      "rsi": 39.2,
-      "risk": "High",
-      "reason": "Below 20-day trend, positive intermediate trend, strong one-month strength, high volatility."
-    },
-    {
-      "ticker": "ANET",
-      "signal": "HOLD",
-      "score": 54,
-      "price": 189.93,
-      "change_percent": -1.55,
-      "rsi": 56.2,
-      "risk": "Medium",
-      "reason": "Below 20-day trend, positive intermediate trend, healthy momentum, negative one-month momentum."
+      "score": 56,
+      "price": 334.78,
+      "change_percent": 2.51,
+      "rsi": 71.9,
+      "risk": "Low",
+      "reason": "Above 20-day trend, weak intermediate trend, strong one-month strength."
     },
     {
       "ticker": "SCHG",
       "signal": "HOLD",
       "score": 52,
-      "price": 34.94,
-      "change_percent": -0.2,
-      "rsi": 47.5,
+      "price": 35.23,
+      "change_percent": 1.06,
+      "rsi": 48.7,
       "risk": "Low",
       "reason": "Below 20-day trend, positive intermediate trend."
     },
@@ -215,29 +185,29 @@
       "ticker": "AMZN",
       "signal": "HOLD",
       "score": 52,
-      "price": 252.89,
-      "change_percent": 0.19,
-      "rsi": 41.7,
+      "price": 255.77,
+      "change_percent": 1.54,
+      "rsi": 46.9,
       "risk": "Low",
       "reason": "Below 20-day trend, positive intermediate trend."
     },
     {
-      "ticker": "ASML",
+      "ticker": "V",
       "signal": "HOLD",
       "score": 52,
-      "price": 1701.6,
-      "change_percent": -1.61,
-      "rsi": 43.2,
-      "risk": "Medium",
+      "price": 370.58,
+      "change_percent": 0.92,
+      "rsi": 49.5,
+      "risk": "Low",
       "reason": "Below 20-day trend, positive intermediate trend."
     },
     {
       "ticker": "MA",
       "signal": "HOLD",
       "score": 52,
-      "price": 565.53,
-      "change_percent": -0.35,
-      "rsi": 44.9,
+      "price": 569.26,
+      "change_percent": 0.69,
+      "rsi": 42.8,
       "risk": "Low",
       "reason": "Below 20-day trend, positive intermediate trend."
     },
@@ -245,9 +215,9 @@
       "ticker": "PLTR",
       "signal": "HOLD",
       "score": 52,
-      "price": 166.72,
-      "change_percent": -1.66,
-      "rsi": 45.0,
+      "price": 166.74,
+      "change_percent": 0.53,
+      "rsi": 40.4,
       "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend."
     },
@@ -255,19 +225,39 @@
       "ticker": "NFLX",
       "signal": "HOLD",
       "score": 52,
-      "price": 76.27,
-      "change_percent": 0.32,
-      "rsi": 38.8,
+      "price": 76.92,
+      "change_percent": 1.19,
+      "rsi": 42.3,
       "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend."
+    },
+    {
+      "ticker": "CRWD",
+      "signal": "HOLD",
+      "score": 49,
+      "price": 205.7,
+      "change_percent": -1.51,
+      "rsi": 55.6,
+      "risk": "High",
+      "reason": "Below 20-day trend, positive intermediate trend, healthy momentum, negative one-month momentum."
+    },
+    {
+      "ticker": "TEM",
+      "signal": "HOLD",
+      "score": 49,
+      "price": 59.27,
+      "change_percent": 0.9,
+      "rsi": 27.2,
+      "risk": "High",
+      "reason": "Below 20-day trend, positive intermediate trend, weak momentum, strong one-month strength."
     },
     {
       "ticker": "BRK.B",
       "signal": "HOLD",
       "score": 48,
-      "price": 506.06,
-      "change_percent": -0.13,
-      "rsi": 68.4,
+      "price": 507.68,
+      "change_percent": 0.13,
+      "rsi": 74.5,
       "risk": "Low",
       "reason": "Above 20-day trend, weak intermediate trend."
     },
@@ -275,9 +265,9 @@
       "ticker": "META",
       "signal": "HOLD",
       "score": 47,
-      "price": 652.2,
-      "change_percent": -0.23,
-      "rsi": 88.7,
+      "price": 647.73,
+      "change_percent": 0.52,
+      "rsi": 83.9,
       "risk": "Medium",
       "reason": "Above 20-day trend, weak intermediate trend, overbought momentum, strong one-month strength."
     },
@@ -286,8 +276,8 @@
       "signal": "HOLD",
       "score": 47,
       "price": 3.18,
-      "change_percent": -0.93,
-      "rsi": 45.7,
+      "change_percent": 0.79,
+      "rsi": 40.8,
       "risk": "High",
       "reason": "Below 20-day trend, positive intermediate trend, high volatility."
     },
@@ -295,9 +285,9 @@
       "ticker": "QCOM",
       "signal": "HOLD",
       "score": 47,
-      "price": 181.82,
-      "change_percent": 3.07,
-      "rsi": 80.3,
+      "price": 184.17,
+      "change_percent": 4.12,
+      "rsi": 81.5,
       "risk": "Low",
       "reason": "Above 20-day trend, weak intermediate trend, overbought momentum, strong one-month strength."
     },
@@ -305,193 +295,203 @@
       "ticker": "RBLX",
       "signal": "HOLD",
       "score": 47,
-      "price": 45.52,
-      "change_percent": 2.25,
-      "rsi": 77.8,
+      "price": 45.85,
+      "change_percent": 2.15,
+      "rsi": 80.1,
       "risk": "Medium",
       "reason": "Above 20-day trend, weak intermediate trend, overbought momentum, strong one-month strength."
     },
     {
-      "ticker": "LLY",
+      "ticker": "SNOW",
       "signal": "HOLD",
-      "score": 46,
-      "price": 1126.61,
-      "change_percent": 0.21,
-      "rsi": 11.2,
-      "risk": "Low",
-      "reason": "Below 20-day trend, positive intermediate trend, weak momentum."
+      "score": 47,
+      "price": 327.4,
+      "change_percent": -0.7,
+      "rsi": 48.1,
+      "risk": "High",
+      "reason": "Below 20-day trend, positive intermediate trend, high volatility."
     },
     {
-      "ticker": "ETN",
-      "signal": "HOLD",
-      "score": 44,
-      "price": 409.2,
-      "change_percent": -1.45,
-      "rsi": 46.9,
-      "risk": "Medium",
-      "reason": "Below 20-day trend, positive intermediate trend, negative one-month momentum."
+      "ticker": "PANW",
+      "signal": "SELL",
+      "score": 39,
+      "price": 329.32,
+      "change_percent": -2.71,
+      "rsi": 41.1,
+      "risk": "High",
+      "reason": "Below 20-day trend, positive intermediate trend, negative one-month momentum, high volatility."
+    },
+    {
+      "ticker": "IONQ",
+      "signal": "SELL",
+      "score": 33,
+      "price": 37.31,
+      "change_percent": 1.26,
+      "rsi": 32.2,
+      "risk": "High",
+      "reason": "Below 20-day trend, positive intermediate trend, weak momentum, negative one-month momentum."
     }
   ],
   "starter_allocation": [
     {
-      "ticker": "TSM",
+      "ticker": "MSFT",
       "amount": 12.5,
       "reason": "Score 82 \u2022 Low risk"
     },
     {
-      "ticker": "CEG",
+      "ticker": "TSM",
       "amount": 7.5,
-      "reason": "Score 82 \u2022 Medium risk"
+      "reason": "Score 82 \u2022 Low risk"
     },
     {
-      "ticker": "ORCL",
+      "ticker": "CEG",
       "amount": 5.0,
       "reason": "Score 82 \u2022 Medium risk"
     }
   ],
   "market_notes": [
-    "15% of the watchlist qualifies as Buy.",
-    "Average score is 50/100: Neutral / Selective.",
-    "TSM leads with 82/100."
+    "22% of the watchlist qualifies as Buy.",
+    "Average score is 49/100: Neutral / Selective.",
+    "MSFT leads with 82/100."
   ],
   "sectors": [
     {
       "name": "Semiconductors",
       "ticker": "SMH",
-      "change_percent": 2.45
+      "change_percent": 3.39
     },
     {
       "name": "Technology",
       "ticker": "XLK",
-      "change_percent": 1.32
+      "change_percent": 1.14
     },
     {
       "name": "Energy",
       "ticker": "XLE",
-      "change_percent": 0.0
+      "change_percent": 0.81
     },
     {
       "name": "Utilities",
       "ticker": "XLU",
-      "change_percent": -0.08
+      "change_percent": -1.05
     },
     {
       "name": "Industrials",
       "ticker": "XLI",
-      "change_percent": -1.24
+      "change_percent": -1.11
     },
     {
       "name": "Financials",
       "ticker": "XLF",
-      "change_percent": -1.36
+      "change_percent": -2.19
     },
     {
       "name": "Consumer Discretionary",
       "ticker": "XLY",
-      "change_percent": -2.15
+      "change_percent": -2.97
     },
     {
       "name": "Healthcare",
       "ticker": "XLV",
-      "change_percent": -4.11
+      "change_percent": -4.37
     }
   ],
   "news": [
     {
-      "ticker": "QQQ",
-      "title": "Skyworks Solutions Surges 10%, Qorvo Climbs 6% While Chip Stocks Fall: Is the Merger Finally Clearing?",
-      "link": "https://247wallst.com/investing/2026/09/10/skyworks-solutions-surges-10-qorvo-climbs-6-while-chip-stocks-fall-is-the-merger-finally-clearing/",
-      "publisher": "24/7 Wall St.",
-      "summary": "Shares of Skyworks Solutions (NASDAQ:SWKS) are up 10% to $84.24 in Thursday midday trade, while Qorvo (NASDAQ:QRVO) stock is climbing 6% to $111.49. The paired rally arrives on a session when the broader chip complex is red, which frames the move as merger-arb repricing driven by",
-      "published": "2026-09-10T16:47:26Z"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Snap Adds Party Planning as It Argues It Isn't Social Media",
-      "link": "https://finance.yahoo.com/media-advertising/articles/snap-adds-party-planning-argues-164151851.html",
-      "publisher": "GuruFocus.com",
-      "summary": "Groups run to 200 people, invite-only, with commitments tracked on profiles",
-      "published": "2026-09-10T16:41:51Z"
+      "ticker": "NVDA",
+      "title": "August Inflation Came in Hot, and the Odds of a September Rate Hike Are Now 85%. But There's a Silver Lining Driving Stocks Higher.",
+      "link": "https://www.fool.com/investing/2026/09/11/august-inflation-came-in-hot-and-the-odds-of-a-september-rate-hike-are-now-85-but-there-s-a-silver-lining-driving-stocks-higher/",
+      "publisher": "Motley Fool",
+      "summary": "Core inflation rose 0.3% in August, slightly more than expected.",
+      "published": "2026-09-11T16:52:01Z"
     },
     {
       "ticker": "SPY",
-      "title": "Rare Earth Stocks Tumble on U.S.-China Thaw Hopes: USA Rare Earth Sinks 4%, MP Materials Drops 5%, Critical Metals Slips",
-      "link": "https://247wallst.com/investing/2026/09/10/rare-earth-stocks-tumble-on-u-s-china-thaw-hopes-usa-rare-earth-sinks-4-mp-materials-drops-5-critical-metals-slips/",
+      "title": "TeraWulf Rallies 7% as Miner Selloff Reverses; Applied Digital Gains 4%, IREN Sits Out the Rally",
+      "link": "https://247wallst.com/investing/2026/09/11/terawulf-rallies-7-as-miner-selloff-reverses-applied-digital-gains-4-iren-sits-out-the-rally/",
       "publisher": "24/7 Wall St.",
-      "summary": "Diplomatic warming between Washington and Beijing is quietly dismantling the trade thesis that sent domestic rare earth stocks surging this year, and the sector is now caught between a groundbreaking billion-dollar factory and a potential summit that could make it irrelevant.",
-      "published": "2026-09-10T16:41:04Z"
+      "summary": "Shares of TeraWulf (NASDAQ:WULF) are up 7% to $17.33 in Friday midday trading, leading a broad rebound across the Bitcoin (CRYPTO:BTC) miner complex after a soft prior session. Also higher, Applied Digital (NASDAQ:APLD) stock is climbing 4% to $26.74. Meanwhile, IREN (NASDAQ:IREN",
+      "published": "2026-09-11T16:50:43Z"
     },
     {
       "ticker": "NVDA",
-      "title": "Want to Make a Fortune From the AI Power Boom? Buy These 2 Industrial Stocks",
-      "link": "https://www.fool.com/investing/2026/09/10/fortune-ai-power-boom-buy-industrials-stocks/",
+      "title": "All It Takes Is $10,000 Invested in Each of These 3 High-Yield Dividend Stocks to Generate Over $1,650 in Yearly Dividends",
+      "link": "https://www.fool.com/investing/2026/09/11/all-it-takes-is-10000-invested-in-each-of-these-3/",
       "publisher": "Motley Fool",
-      "summary": "Data-center power demand could exceed 100 gigawatts by 2030 -- a big tailwind for these stocks.",
-      "published": "2026-09-10T16:35:00Z"
+      "summary": "While no investment can be completely guaranteed, these income stocks are built rock solid to continue producing dividend payments well into the foreseeable future.",
+      "published": "2026-09-11T16:50:00Z"
     },
     {
-      "ticker": "NVDA",
-      "title": "Why Signet Jewelers Stock Pulled Back Today",
-      "link": "https://www.fool.com/investing/2026/09/10/why-signet-jewelers-stock-pulled-back/",
-      "publisher": "Motley Fool",
-      "summary": "Signet gave back some gains one day after a 24% pop.",
-      "published": "2026-09-10T16:31:37Z"
+      "ticker": "AMD",
+      "title": "The Better Nvidia Killer: Broadcom or AMD?",
+      "link": "https://247wallst.com/investing/2026/09/11/the-better-nvidia-killer-broadcom-or-amd/",
+      "publisher": "24/7 Wall St.",
+      "summary": "Broadcom and AMD both posted explosive AI growth and both have hyperscalers locked in as customers, but only one makes a convincing case for actually unseating Nvidia as the king of AI compute.",
+      "published": "2026-09-11T16:40:12Z"
     },
     {
-      "ticker": "PLTR",
-      "title": "Stock Market Today: Dow Slides As Oil Hits $100; Nvidia Drops Amid News Of Palantir Partnership (Live Coverage)",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-nvidia-chipmaker-tsmc/?src=A00220&yptr=yahoo",
+      "ticker": "MSFT",
+      "title": "Sam Altman Weighs AI Slowdown as Bridgewater Co-CIO Warns AI Will Kill People Before Anyone Acts",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/09/61745315/sam-altman-ai-slowdown-safety?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
+      "publisher": "Benzinga Prediction Markets",
+      "summary": "OpenAI CEO Sam Altman is reportedly weighing whether the company should slow development of its most advanced artificial intelligence systems, potentially alongside rival labs, as Bridgewater co-CIO Greg Jensen warns little may be done about AI risk until it causes...",
+      "published": "2026-09-11T16:32:54Z"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Prediction: This Could Be an Unexpected AI Winner Through 2030",
+      "link": "https://247wallst.com/investing/2026/09/11/prediction-this-could-be-an-unexpected-ai-winner-through-2030/",
+      "publisher": "24/7 Wall St.",
+      "summary": "Oracle just posted numbers that should have sent the stock soaring, yet shares sit near a 52-week low while a $664 billion backlog quietly accumulates. Something does not add up, and the gap between the price and the fundamentals may be the most interesting trade setting up in cl",
+      "published": "2026-09-11T16:30:56Z"
+    },
+    {
+      "ticker": "QQQ",
+      "title": "Wall Street Just Erased $57 Billion From Micron. The Shortage Behind Its Boom Is Getting Worse.",
+      "link": "https://247wallst.com/investing/2026/09/11/wall-street-just-erased-57-billion-from-micron-the-shortage-behind-its-boom-is-getting-worse/",
+      "publisher": "24/7 Wall St.",
+      "summary": "Micron just posted the highest revenue guidance in its history while the shortage fueling its growth gets worse, yet Wall Street wiped out tens of billions in market cap anyway. The signal hiding inside that contradiction is worth understanding before the next move.",
+      "published": "2026-09-11T16:30:04Z"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; Apple Jumps, Nears All-Time High (Live Coverage)",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo",
       "publisher": "Investor's Business Daily",
-      "summary": "Stock Market Today: The Dow Jones index falls Thursday after a surprise inflation reading, as oil prices and Treasury yields surge.",
-      "published": "2026-09-10T16:18:15Z"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Is It Ever Safe To Buy The Dip In Snap Stock?",
-      "link": "https://www.trefis.com/articles/614903/is-it-ever-safe-to-buy-the-dip-in-snap-stock/2026-09-10",
-      "publisher": "Trefis",
-      "summary": "Snap (SNAP) has slipped about 10% from its late-August high to around $5.31, and the reflex is to call it an entry point. The company underneath is healthier than the chart implies, but this stock has a long record of sharp falls, and what usually followed them is not encouraging",
-      "published": "2026-09-10T16:17:35Z"
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Meta Platforms' Weak Trust Score Could Limit Muse Adoption, Oppenheimer Says",
-      "link": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-apos-weak-trust-161707541.html",
-      "publisher": "MT Newswires",
-      "summary": "Meta Platforms' (META) Muse personal AI agent received positive investor feedback, but the company's",
-      "published": "2026-09-10T16:17:07Z"
+      "summary": "Stock Market Today: The Dow Jones index rallies Friday after a surprise CPI inflation report. Nvidia stock rebounded in morning trading.",
+      "published": "2026-09-11T16:03:45Z"
     },
     {
       "ticker": "AMZN",
-      "title": "AI Agents Are About to Start Spending Your Money. 5 Stocks Sitting in the Line of Fire.",
-      "link": "https://247wallst.com/investing/2026/09/10/ai-agents-are-about-to-start-spending-your-money-5-stocks-sitting-in-the-line-of-fire/",
+      "title": "My Agentic AI Capital Is Going One Place Over and Over",
+      "link": "https://247wallst.com/investing/2026/09/11/my-agentic-ai-capital-is-going-one-place-over-and-over/",
       "publisher": "24/7 Wall St.",
-      "summary": "AI agents can already pick your next purchase, but they still can't pull the trigger without your permission. Five companies are quietly building the infrastructure that changes that, and they are not all the obvious names.",
-      "published": "2026-09-10T16:15:13Z"
+      "summary": "Every payday the same stock gets another slice of my retirement capital, and three numbers from its latest earnings report make it harder to justify putting that money anywhere else.",
+      "published": "2026-09-11T16:00:53Z"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "The Next Growth Cycle Could Take Qualcomm to New Highs",
+      "link": "https://247wallst.com/investing/2026/09/11/the-next-growth-cycle-could-take-qualcomm-to-new-highs/",
+      "publisher": "24/7 Wall St.",
+      "summary": "Qualcomm's handset business is shrinking while its automotive and data center ambitions are scaling fast, and the tension between those two forces will determine whether the stock revisits its highs or stalls out entirely.",
+      "published": "2026-09-11T16:00:52Z"
     },
     {
       "ticker": "SPY",
-      "title": "SolarEdge Falls 4% on Analyst Day Despite Joint NVIDIA 800 VDC Paper; Enphase Energy and First Solar Edge Higher",
-      "link": "https://247wallst.com/investing/2026/09/10/solaredge-falls-4-on-analyst-day-despite-joint-nvidia-800-vdc-paper-enphase-energy-and-first-solar-edge-higher/",
+      "title": "Moderna Rallies 8% on 2026 Melt-Up Momentum Even While BioNTech and Merck Stay Flat",
+      "link": "https://247wallst.com/investing/2026/09/11/moderna-rallies-8-on-2026-melt-up-momentum-even-while-biontech-and-merck-stay-flat/",
       "publisher": "24/7 Wall St.",
-      "summary": "SolarEdge published an 800 VDC white paper co-authored with NVIDIA and hosted its Analyst Day, yet the stock fell while solar peers rallied. The market sent a clear message about what kind of disclosure it actually wants.",
-      "published": "2026-09-10T16:07:28Z"
+      "summary": "Moderna just surged 8% on a morning when its closest cancer-vaccine peer barely budged and its own pipeline partner slipped into the red, and no announcement, trial readout, or analyst call explains why.",
+      "published": "2026-09-11T15:56:30Z"
     },
     {
-      "ticker": "META",
-      "title": "JPMorgan Lifts Meta to $820 as Muse Reaches Number Three",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-lifts-meta-820-muse-160546983.html",
-      "publisher": "GuruFocus.com",
-      "summary": "Anmuth says early Muse usage is running at 10 times the training cohorts",
-      "published": "2026-09-10T16:05:46Z"
-    },
-    {
-      "ticker": "QQQ",
-      "title": "AI Server Stocks Slide as Two-Day Run Unwinds: Hewlett Packard Enterprise Sinks 4%, Dell Pulls Back, Super Micro Sits Out the Selloff",
-      "link": "https://247wallst.com/investing/2026/09/10/ai-server-stocks-slide-as-two-day-run-unwinds-hewlett-packard-enterprise-sinks-4-dell-pulls-back-super-micro-sits-out-the-selloff/",
+      "ticker": "SPY",
+      "title": "Bloom Energy Climbs 7% as Fuel Cell Bid Spreads Beyond Its S&P 500 Add, FuelCell Energy Rises 4%, Plug Power Inches Higher",
+      "link": "https://247wallst.com/investing/2026/09/11/bloom-energy-climbs-7-as-fuel-cell-bid-spreads-beyond-its-sp-500-add-fuelcell-energy-rises-4-plug-power-inches-higher/",
       "publisher": "24/7 Wall St.",
-      "summary": "HPE and Dell are giving back gains Thursday with no new catalyst in sight, while Super Micro is bucking the retreat entirely. The divergence raises a question about whether this is profit taking or something more worth watching.",
-      "published": "2026-09-10T16:02:16Z"
+      "summary": "Bloom Energy's S&P 500 addition triggered mechanical buying pressure, but rival fuel cell stocks with no connection to the rebalance are surging alongside it, pointing to a second, more powerful force at work in the sector.",
+      "published": "2026-09-11T15:49:05Z"
     }
   ],
   "portfolio": {
@@ -821,6 +821,14 @@
       "hold_percent": 59,
       "sell_percent": 26,
       "leader": "TSM"
+    },
+    {
+      "date": "2026-09-11",
+      "score": 49,
+      "buy_percent": 22,
+      "hold_percent": 46,
+      "sell_percent": 32,
+      "leader": "MSFT"
     }
   ]
 }

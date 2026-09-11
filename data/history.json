@@ -318,5 +318,13 @@
     "hold_percent": 59,
     "sell_percent": 26,
     "leader": "TSM"
+  },
+  {
+    "date": "2026-09-11",
+    "score": 49,
+    "buy_percent": 22,
+    "hold_percent": 46,
+    "sell_percent": 32,
+    "leader": "MSFT"
   }
 ]
