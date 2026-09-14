@@ -326,5 +326,13 @@
     "hold_percent": 46,
     "sell_percent": 32,
     "leader": "MSFT"
+  },
+  {
+    "date": "2026-09-14",
+    "score": 51,
+    "buy_percent": 27,
+    "hold_percent": 46,
+    "sell_percent": 27,
+    "leader": "CRWD"
   }
 ]
