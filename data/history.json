@@ -334,5 +334,13 @@
     "hold_percent": 46,
     "sell_percent": 27,
     "leader": "CRWD"
+  },
+  {
+    "date": "2026-09-15",
+    "score": 49,
+    "buy_percent": 24,
+    "hold_percent": 46,
+    "sell_percent": 30,
+    "leader": "AAPL"
   }
 ]
