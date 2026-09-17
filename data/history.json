@@ -350,5 +350,13 @@
     "hold_percent": 51,
     "sell_percent": 27,
     "leader": "CRWD"
+  },
+  {
+    "date": "2026-09-17",
+    "score": 58,
+    "buy_percent": 42,
+    "hold_percent": 35,
+    "sell_percent": 23,
+    "leader": "NOW"
   }
 ]
