@@ -358,5 +358,13 @@
     "hold_percent": 35,
     "sell_percent": 23,
     "leader": "NOW"
+  },
+  {
+    "date": "2026-09-18",
+    "score": 56,
+    "buy_percent": 34,
+    "hold_percent": 39,
+    "sell_percent": 27,
+    "leader": "QCOM"
   }
 ]
