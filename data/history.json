@@ -366,5 +366,13 @@
     "hold_percent": 39,
     "sell_percent": 27,
     "leader": "QCOM"
+  },
+  {
+    "date": "2026-09-21",
+    "score": 62,
+    "buy_percent": 41,
+    "hold_percent": 46,
+    "sell_percent": 13,
+    "leader": "ANET"
   }
 ]
