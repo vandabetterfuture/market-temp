@@ -374,5 +374,13 @@
     "hold_percent": 46,
     "sell_percent": 13,
     "leader": "ANET"
+  },
+  {
+    "date": "2026-09-22",
+    "score": 63,
+    "buy_percent": 46,
+    "hold_percent": 41,
+    "sell_percent": 13,
+    "leader": "AAPL"
   }
 ]
