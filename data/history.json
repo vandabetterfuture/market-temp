@@ -382,5 +382,13 @@
     "hold_percent": 41,
     "sell_percent": 13,
     "leader": "AAPL"
+  },
+  {
+    "date": "2026-09-23",
+    "score": 65,
+    "buy_percent": 56,
+    "hold_percent": 27,
+    "sell_percent": 17,
+    "leader": "AAPL"
   }
 ]
