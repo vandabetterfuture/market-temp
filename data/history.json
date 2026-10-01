@@ -430,5 +430,13 @@
     "hold_percent": 44,
     "sell_percent": 17,
     "leader": "META"
+  },
+  {
+    "date": "2026-10-01",
+    "score": 61,
+    "buy_percent": 51,
+    "hold_percent": 27,
+    "sell_percent": 22,
+    "leader": "META"
   }
 ]
