@@ -494,5 +494,13 @@
     "hold_percent": 44,
     "sell_percent": 17,
     "leader": "META"
+  },
+  {
+    "date": "2026-10-14",
+    "score": 54,
+    "buy_percent": 24,
+    "hold_percent": 51,
+    "sell_percent": 25,
+    "leader": "PLTR"
   }
 ]
