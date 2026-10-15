@@ -502,5 +502,13 @@
     "hold_percent": 51,
     "sell_percent": 25,
     "leader": "PLTR"
+  },
+  {
+    "date": "2026-10-15",
+    "score": 55,
+    "buy_percent": 27,
+    "hold_percent": 56,
+    "sell_percent": 17,
+    "leader": "MSFT"
   }
 ]
