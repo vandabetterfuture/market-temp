@@ -510,5 +510,13 @@
     "hold_percent": 56,
     "sell_percent": 17,
     "leader": "MSFT"
+  },
+  {
+    "date": "2026-10-16",
+    "score": 48,
+    "buy_percent": 15,
+    "hold_percent": 56,
+    "sell_percent": 29,
+    "leader": "ISRG"
   }
 ]
