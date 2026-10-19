@@ -518,5 +518,13 @@
     "hold_percent": 56,
     "sell_percent": 29,
     "leader": "ISRG"
+  },
+  {
+    "date": "2026-10-19",
+    "score": 50,
+    "buy_percent": 27,
+    "hold_percent": 37,
+    "sell_percent": 36,
+    "leader": "ISRG"
   }
 ]
