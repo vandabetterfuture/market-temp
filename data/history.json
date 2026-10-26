@@ -558,5 +558,13 @@
     "hold_percent": 29,
     "sell_percent": 47,
     "leader": "PLTR"
+  },
+  {
+    "date": "2026-10-26",
+    "score": 47,
+    "buy_percent": 37,
+    "hold_percent": 17,
+    "sell_percent": 46,
+    "leader": "TSLA"
   }
 ]
