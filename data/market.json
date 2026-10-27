@@ -1,43 +1,53 @@
 {
-  "generated_at": "2026-10-26T19:14:25.239548+00:00",
+  "generated_at": "2026-10-27T18:40:07.481691+00:00",
   "market_status": "Latest available close",
   "market_temperature": {
-    "label": "Defensive",
-    "score": 47,
-    "buy_percent": 37,
+    "label": "Neutral / Selective",
+    "score": 51,
+    "buy_percent": 41,
     "hold_percent": 17,
-    "sell_percent": 46
+    "sell_percent": 42
   },
   "market_metrics": [
     {
       "label": "S&P 500",
-      "value": "765.40 (+0.71%)",
-      "change_percent": 0.71
+      "value": "769.03 (+0.48%)",
+      "change_percent": 0.48
     },
     {
       "label": "Nasdaq 100",
-      "value": "713.47 (+1.29%)",
-      "change_percent": 1.29
+      "value": "720.41 (+1.15%)",
+      "change_percent": 1.15
     },
     {
       "label": "VIX",
-      "value": "18.45",
-      "change_percent": 5.14
+      "value": "17.74",
+      "change_percent": 3.53
     },
     {
       "label": "Russell 2000",
-      "value": "277.05 (+0.47%)",
-      "change_percent": 0.47
+      "value": "279.96 (+1.07%)",
+      "change_percent": 1.07
     }
   ],
   "candidates": [
     {
+      "ticker": "LLY",
+      "signal": "BUY",
+      "score": 90,
+      "price": 1280.28,
+      "change_percent": 0.09,
+      "rsi": 65.9,
+      "risk": "Low",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, strong one-month strength."
+    },
+    {
       "ticker": "TSLA",
       "signal": "BUY",
       "score": 90,
-      "price": 394.45,
-      "change_percent": 5.97,
-      "rsi": 56.3,
+      "price": 406.16,
+      "change_percent": 3.71,
+      "rsi": 62.0,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, strong one-month strength."
     },
@@ -45,9 +55,9 @@
       "ticker": "MSFT",
       "signal": "BUY",
       "score": 82,
-      "price": 531.97,
-      "change_percent": 1.42,
-      "rsi": 51.6,
+      "price": 530.56,
+      "change_percent": -0.38,
+      "rsi": 50.5,
       "risk": "Low",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
     },
@@ -55,229 +65,219 @@
       "ticker": "AAPL",
       "signal": "BUY",
       "score": 82,
-      "price": 343.34,
-      "change_percent": -1.26,
-      "rsi": 63.2,
+      "price": 345.9,
+      "change_percent": 0.58,
+      "rsi": 63.1,
       "risk": "Low",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
+    },
+    {
+      "ticker": "CRWD",
+      "signal": "BUY",
+      "score": 82,
+      "price": 267.32,
+      "change_percent": 2.09,
+      "rsi": 50.9,
+      "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
     },
     {
       "ticker": "PLTR",
       "signal": "BUY",
       "score": 82,
-      "price": 199.48,
-      "change_percent": 1.39,
-      "rsi": 55.5,
+      "price": 199.4,
+      "change_percent": 0.28,
+      "rsi": 54.0,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
+    },
+    {
+      "ticker": "QCOM",
+      "signal": "BUY",
+      "score": 82,
+      "price": 182.13,
+      "change_percent": 1.41,
+      "rsi": 56.0,
+      "risk": "Low",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
+    },
+    {
+      "ticker": "SNOW",
+      "signal": "BUY",
+      "score": 82,
+      "price": 338.68,
+      "change_percent": 1.12,
+      "rsi": 52.0,
+      "risk": "Medium",
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum."
+    },
+    {
+      "ticker": "V",
+      "signal": "BUY",
+      "score": 80,
+      "price": 397.87,
+      "change_percent": -1.56,
+      "rsi": 69.0,
+      "risk": "Low",
+      "reason": "Above 20-day trend, positive intermediate trend, strong one-month strength."
     },
     {
       "ticker": "NOW",
       "signal": "BUY",
       "score": 80,
-      "price": 156.85,
-      "change_percent": -1.33,
-      "rsi": 73.0,
+      "price": 154.29,
+      "change_percent": -2.46,
+      "rsi": 68.9,
       "risk": "Medium",
+      "reason": "Above 20-day trend, positive intermediate trend, strong one-month strength."
+    },
+    {
+      "ticker": "ISRG",
+      "signal": "BUY",
+      "score": 80,
+      "price": 446.28,
+      "change_percent": -1.18,
+      "rsi": 69.7,
+      "risk": "Low",
       "reason": "Above 20-day trend, positive intermediate trend, strong one-month strength."
     },
     {
       "ticker": "RBLX",
       "signal": "BUY",
       "score": 80,
-      "price": 53.87,
-      "change_percent": 1.84,
-      "rsi": 71.3,
+      "price": 54.56,
+      "change_percent": 0.36,
+      "rsi": 71.1,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend, strong one-month strength."
     },
     {
-      "ticker": "LLY",
+      "ticker": "MA",
       "signal": "BUY",
       "score": 72,
-      "price": 1278.99,
-      "change_percent": 0.43,
-      "rsi": 69.1,
+      "price": 606.86,
+      "change_percent": -1.08,
+      "rsi": 69.7,
       "risk": "Low",
-      "reason": "Above 20-day trend, positive intermediate trend."
-    },
-    {
-      "ticker": "CRWD",
-      "signal": "BUY",
-      "score": 72,
-      "price": 262.13,
-      "change_percent": 1.77,
-      "rsi": 42.7,
-      "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend."
     },
     {
       "ticker": "PANW",
       "signal": "BUY",
       "score": 72,
-      "price": 391.43,
-      "change_percent": 2.86,
-      "rsi": 42.1,
+      "price": 402.12,
+      "change_percent": 2.99,
+      "rsi": 49.0,
       "risk": "Medium",
       "reason": "Above 20-day trend, positive intermediate trend."
     },
     {
-      "ticker": "QCOM",
+      "ticker": "COST",
       "signal": "BUY",
       "score": 72,
-      "price": 179.52,
-      "change_percent": 2.05,
-      "rsi": 48.2,
+      "price": 991.0,
+      "change_percent": -1.41,
+      "rsi": 69.0,
       "risk": "Low",
       "reason": "Above 20-day trend, positive intermediate trend."
     },
     {
-      "ticker": "V",
+      "ticker": "CDNS",
       "signal": "BUY",
-      "score": 71,
-      "price": 403.66,
-      "change_percent": -1.04,
-      "rsi": 75.9,
-      "risk": "Low",
-      "reason": "Above 20-day trend, positive intermediate trend, overbought momentum, strong one-month strength."
-    },
-    {
-      "ticker": "MA",
-      "signal": "BUY",
-      "score": 71,
-      "price": 613.78,
-      "change_percent": -1.57,
-      "rsi": 76.1,
-      "risk": "Low",
-      "reason": "Above 20-day trend, positive intermediate trend, overbought momentum, strong one-month strength."
+      "score": 72,
+      "price": 345.33,
+      "change_percent": 7.19,
+      "rsi": 45.3,
+      "risk": "Medium",
+      "reason": "Above 20-day trend, positive intermediate trend."
     },
     {
       "ticker": "BRK.B",
       "signal": "BUY",
       "score": 71,
-      "price": 547.66,
-      "change_percent": 1.01,
-      "rsi": 88.5,
+      "price": 543.89,
+      "change_percent": -0.85,
+      "rsi": 81.6,
       "risk": "Low",
       "reason": "Above 20-day trend, positive intermediate trend, overbought momentum, strong one-month strength."
     },
     {
-      "ticker": "COST",
-      "signal": "BUY",
-      "score": 71,
-      "price": 1000.55,
-      "change_percent": -0.28,
-      "rsi": 76.7,
-      "risk": "Low",
-      "reason": "Above 20-day trend, positive intermediate trend, overbought momentum, strong one-month strength."
-    },
-    {
-      "ticker": "ISRG",
-      "signal": "BUY",
-      "score": 71,
-      "price": 450.88,
-      "change_percent": -0.31,
-      "rsi": 76.9,
-      "risk": "Low",
-      "reason": "Above 20-day trend, positive intermediate trend, overbought momentum, strong one-month strength."
-    },
-    {
-      "ticker": "SNOW",
+      "ticker": "TEM",
       "signal": "HOLD",
-      "score": 52,
-      "price": 333.39,
-      "change_percent": 2.44,
-      "rsi": 49.1,
-      "risk": "Medium",
-      "reason": "Below 20-day trend, positive intermediate trend."
-    },
-    {
-      "ticker": "SNPS",
-      "signal": "HOLD",
-      "score": 49,
-      "price": 456.13,
-      "change_percent": 6.04,
-      "rsi": 33.4,
+      "score": 69,
+      "price": 71.93,
+      "change_percent": 7.1,
+      "rsi": 52.5,
       "risk": "High",
-      "reason": "Below 20-day trend, positive intermediate trend, weak momentum, strong one-month strength."
+      "reason": "Above 20-day trend, positive intermediate trend, healthy momentum, negative one-month momentum."
     },
     {
       "ticker": "RXRX",
       "signal": "HOLD",
-      "score": 47,
-      "price": 3.8,
-      "change_percent": 2.7,
-      "rsi": 37.5,
+      "score": 67,
+      "price": 4.09,
+      "change_percent": 7.64,
+      "rsi": 47.2,
       "risk": "High",
-      "reason": "Below 20-day trend, positive intermediate trend, high volatility."
+      "reason": "Above 20-day trend, positive intermediate trend, high volatility."
+    },
+    {
+      "ticker": "SNPS",
+      "signal": "HOLD",
+      "score": 55,
+      "price": 472.43,
+      "change_percent": 3.98,
+      "rsi": 40.7,
+      "risk": "High",
+      "reason": "Below 20-day trend, positive intermediate trend, strong one-month strength, high volatility."
     },
     {
       "ticker": "SCHG",
       "signal": "HOLD",
-      "score": 46,
-      "price": 35.14,
-      "change_percent": 0.93,
-      "rsi": 30.2,
+      "score": 52,
+      "price": 35.47,
+      "change_percent": 1.04,
+      "rsi": 35.3,
       "risk": "Low",
-      "reason": "Below 20-day trend, positive intermediate trend, weak momentum."
+      "reason": "Below 20-day trend, positive intermediate trend."
+    },
+    {
+      "ticker": "TSM",
+      "signal": "HOLD",
+      "score": 52,
+      "price": 437.36,
+      "change_percent": 3.06,
+      "rsi": 36.1,
+      "risk": "Medium",
+      "reason": "Below 20-day trend, positive intermediate trend."
     },
     {
       "ticker": "NVDA",
       "signal": "HOLD",
       "score": 46,
-      "price": 216.61,
-      "change_percent": 2.68,
-      "rsi": 29.5,
+      "price": 217.54,
+      "change_percent": 0.71,
+      "rsi": 31.7,
       "risk": "Low",
       "reason": "Below 20-day trend, positive intermediate trend, weak momentum."
     },
     {
-      "ticker": "TSM",
+      "ticker": "AMD",
       "signal": "HOLD",
       "score": 46,
-      "price": 428.37,
-      "change_percent": 2.36,
-      "rsi": 28.6,
+      "price": 559.5,
+      "change_percent": 5.31,
+      "rsi": 33.8,
       "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend, weak momentum."
-    },
-    {
-      "ticker": "CDNS",
-      "signal": "HOLD",
-      "score": 46,
-      "price": 328.85,
-      "change_percent": 3.91,
-      "rsi": 35.0,
-      "risk": "Medium",
-      "reason": "Below 20-day trend, positive intermediate trend, weak momentum."
-    },
-    {
-      "ticker": "MRVL",
-      "signal": "SELL",
-      "score": 41,
-      "price": 236.42,
-      "change_percent": 3.46,
-      "rsi": 28.5,
-      "risk": "High",
-      "reason": "Below 20-day trend, positive intermediate trend, weak momentum, high volatility."
-    },
-    {
-      "ticker": "TEM",
-      "signal": "SELL",
-      "score": 39,
-      "price": 66.3,
-      "change_percent": -1.94,
-      "rsi": 40.4,
-      "risk": "High",
-      "reason": "Below 20-day trend, positive intermediate trend, negative one-month momentum, high volatility."
     },
     {
       "ticker": "META",
       "signal": "SELL",
       "score": 38,
-      "price": 634.47,
+      "price": 622.55,
       "change_percent": -1.27,
-      "rsi": 23.7,
+      "rsi": 24.4,
       "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend, weak momentum, negative one-month momentum."
     },
@@ -285,29 +285,19 @@
       "ticker": "ASML",
       "signal": "SELL",
       "score": 38,
-      "price": 1595.21,
-      "change_percent": 1.49,
-      "rsi": 23.3,
+      "price": 1639.95,
+      "change_percent": 3.08,
+      "rsi": 32.2,
       "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend, weak momentum, negative one-month momentum."
     },
     {
-      "ticker": "AMD",
+      "ticker": "MRVL",
       "signal": "SELL",
       "score": 38,
-      "price": 532.18,
-      "change_percent": 2.98,
-      "rsi": 25.9,
-      "risk": "Medium",
-      "reason": "Below 20-day trend, positive intermediate trend, weak momentum, negative one-month momentum."
-    },
-    {
-      "ticker": "ANET",
-      "signal": "SELL",
-      "score": 38,
-      "price": 178.57,
-      "change_percent": 3.6,
-      "rsi": 27.7,
+      "price": 242.0,
+      "change_percent": 3.52,
+      "rsi": 32.3,
       "risk": "Medium",
       "reason": "Below 20-day trend, positive intermediate trend, weak momentum, negative one-month momentum."
     },
@@ -315,9 +305,19 @@
       "ticker": "AMZN",
       "signal": "SELL",
       "score": 28,
-      "price": 248.46,
-      "change_percent": 0.18,
-      "rsi": 43.4,
+      "price": 254.07,
+      "change_percent": 2.0,
+      "rsi": 45.2,
+      "risk": "Medium",
+      "reason": "Below 20-day trend, weak intermediate trend."
+    },
+    {
+      "ticker": "ORCL",
+      "signal": "SELL",
+      "score": 28,
+      "price": 131.82,
+      "change_percent": 4.57,
+      "rsi": 40.9,
       "risk": "Medium",
       "reason": "Below 20-day trend, weak intermediate trend."
     },
@@ -325,75 +325,75 @@
       "ticker": "GOOGL",
       "signal": "SELL",
       "score": 22,
-      "price": 317.21,
-      "change_percent": -0.94,
-      "rsi": 23.5,
+      "price": 321.67,
+      "change_percent": 1.54,
+      "rsi": 25.9,
       "risk": "Low",
       "reason": "Below 20-day trend, weak intermediate trend, weak momentum."
     }
   ],
   "starter_allocation": [
     {
-      "ticker": "TSLA",
+      "ticker": "LLY",
       "amount": 12.5,
+      "reason": "Score 90 \u2022 Low risk"
+    },
+    {
+      "ticker": "TSLA",
+      "amount": 7.5,
       "reason": "Score 90 \u2022 Medium risk"
     },
     {
       "ticker": "MSFT",
-      "amount": 7.5,
-      "reason": "Score 82 \u2022 Low risk"
-    },
-    {
-      "ticker": "AAPL",
       "amount": 5.0,
       "reason": "Score 82 \u2022 Low risk"
     }
   ],
   "market_notes": [
-    "37% of the watchlist qualifies as Buy.",
-    "Average score is 47/100: Defensive.",
-    "TSLA leads with 90/100."
+    "41% of the watchlist qualifies as Buy.",
+    "Average score is 51/100: Neutral / Selective.",
+    "LLY leads with 90/100."
   ],
   "sectors": [
     {
-      "name": "Utilities",
-      "ticker": "XLU",
-      "change_percent": 2.89
-    },
-    {
-      "name": "Energy",
-      "ticker": "XLE",
-      "change_percent": 2.74
-    },
-    {
-      "name": "Financials",
-      "ticker": "XLF",
-      "change_percent": 1.77
-    },
-    {
-      "name": "Healthcare",
-      "ticker": "XLV",
-      "change_percent": 1.73
-    },
-    {
       "name": "Technology",
       "ticker": "XLK",
-      "change_percent": 0.46
+      "change_percent": 2.04
     },
     {
-      "name": "Industrials",
-      "ticker": "XLI",
-      "change_percent": 0.13
-    },
-    {
-      "name": "Consumer Discretionary",
-      "ticker": "XLY",
-      "change_percent": -0.19
+      "name": "Utilities",
+      "ticker": "XLU",
+      "change_percent": 1.92
     },
     {
       "name": "Semiconductors",
       "ticker": "SMH",
-      "change_percent": -0.69
+      "change_percent": 1.92
+    },
+    {
+      "name": "Industrials",
+      "ticker": "XLI",
+      "change_percent": 0.47
+    },
+    {
+      "name": "Energy",
+      "ticker": "XLE",
+      "change_percent": 0.42
+    },
+    {
+      "name": "Financials",
+      "ticker": "XLF",
+      "change_percent": 0.19
+    },
+    {
+      "name": "Consumer Discretionary",
+      "ticker": "XLY",
+      "change_percent": -0.07
+    },
+    {
+      "name": "Healthcare",
+      "ticker": "XLV",
+      "change_percent": -0.46
     }
   ],
   "news": [],
@@ -972,6 +972,14 @@
       "hold_percent": 17,
       "sell_percent": 46,
       "leader": "TSLA"
+    },
+    {
+      "date": "2026-10-27",
+      "score": 51,
+      "buy_percent": 41,
+      "hold_percent": 17,
+      "sell_percent": 42,
+      "leader": "LLY"
     }
   ]
 }
