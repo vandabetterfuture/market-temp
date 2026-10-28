@@ -574,5 +574,13 @@
     "hold_percent": 17,
     "sell_percent": 42,
     "leader": "LLY"
+  },
+  {
+    "date": "2026-10-28",
+    "score": 55,
+    "buy_percent": 44,
+    "hold_percent": 29,
+    "sell_percent": 27,
+    "leader": "NOW"
   }
 ]
