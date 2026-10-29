@@ -582,5 +582,13 @@
     "hold_percent": 29,
     "sell_percent": 27,
     "leader": "NOW"
+  },
+  {
+    "date": "2026-10-29",
+    "score": 50,
+    "buy_percent": 32,
+    "hold_percent": 32,
+    "sell_percent": 36,
+    "leader": "COST"
   }
 ]
