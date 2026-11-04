@@ -614,5 +614,13 @@
     "hold_percent": 27,
     "sell_percent": 56,
     "leader": "COST"
+  },
+  {
+    "date": "2026-11-04",
+    "score": 39,
+    "buy_percent": 24,
+    "hold_percent": 15,
+    "sell_percent": 61,
+    "leader": "MSFT"
   }
 ]
