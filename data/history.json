@@ -646,5 +646,13 @@
     "hold_percent": 20,
     "sell_percent": 51,
     "leader": "V"
+  },
+  {
+    "date": "2026-11-10",
+    "score": 43,
+    "buy_percent": 29,
+    "hold_percent": 20,
+    "sell_percent": 51,
+    "leader": "MA"
   }
 ]
