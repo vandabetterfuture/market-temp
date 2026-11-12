@@ -662,5 +662,13 @@
     "hold_percent": 28,
     "sell_percent": 40,
     "leader": "V"
+  },
+  {
+    "date": "2026-11-12",
+    "score": 44,
+    "buy_percent": 27,
+    "hold_percent": 24,
+    "sell_percent": 49,
+    "leader": "TSLA"
   }
 ]
