@@ -670,5 +670,13 @@
     "hold_percent": 24,
     "sell_percent": 49,
     "leader": "TSLA"
+  },
+  {
+    "date": "2026-11-13",
+    "score": 42,
+    "buy_percent": 20,
+    "hold_percent": 29,
+    "sell_percent": 51,
+    "leader": "AAPL"
   }
 ]
