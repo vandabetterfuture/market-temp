@@ -694,5 +694,13 @@
     "hold_percent": 24,
     "sell_percent": 61,
     "leader": "AAPL"
+  },
+  {
+    "date": "2026-11-18",
+    "score": 33,
+    "buy_percent": 12,
+    "hold_percent": 28,
+    "sell_percent": 60,
+    "leader": "LLY"
   }
 ]
