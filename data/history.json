@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-07-18",
-    "score": 52,
-    "buy_percent": 27,
-    "hold_percent": 46,
-    "sell_percent": 27,
-    "leader": "NVDA"
-  },
-  {
     "date": "2026-07-19",
     "score": 54,
     "buy_percent": 29,
@@ -718,5 +710,13 @@
     "hold_percent": 24,
     "sell_percent": 74,
     "leader": "COST"
+  },
+  {
+    "date": "2026-11-24",
+    "score": 33,
+    "buy_percent": 10,
+    "hold_percent": 22,
+    "sell_percent": 68,
+    "leader": "AAPL"
   }
 ]
