@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-07-20",
-    "score": 44,
-    "buy_percent": 17,
-    "hold_percent": 32,
-    "sell_percent": 51,
-    "leader": "META"
-  },
-  {
     "date": "2026-07-21",
     "score": 47,
     "buy_percent": 22,
@@ -713,6 +705,14 @@
   },
   {
     "date": "2026-11-25",
+    "score": 33,
+    "buy_percent": 17,
+    "hold_percent": 12,
+    "sell_percent": 71,
+    "leader": "MA"
+  },
+  {
+    "date": "2026-11-26",
     "score": 33,
     "buy_percent": 17,
     "hold_percent": 12,

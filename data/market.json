@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:28:07.958644+00:00",
+  "generated_at": "2026-11-26T22:16:47.304958+00:00",
   "market_status": "Latest available close",
   "market_temperature": {
     "label": "Defensive",
@@ -21,8 +21,8 @@
     },
     {
       "label": "VIX",
-      "value": "28.29",
-      "change_percent": -7.32
+      "value": "26.80",
+      "change_percent": 5.27
     },
     {
       "label": "Russell 2000",
@@ -405,14 +405,6 @@
     "total_gain": 0.0
   },
   "history": [
-    {
-      "date": "2026-07-20",
-      "score": 44,
-      "buy_percent": 17,
-      "hold_percent": 32,
-      "sell_percent": 51,
-      "leader": "META"
-    },
     {
       "date": "2026-07-21",
       "score": 47,
@@ -1119,6 +1111,14 @@
     },
     {
       "date": "2026-11-25",
+      "score": 33,
+      "buy_percent": 17,
+      "hold_percent": 12,
+      "sell_percent": 71,
+      "leader": "MA"
+    },
+    {
+      "date": "2026-11-26",
       "score": 33,
       "buy_percent": 17,
       "hold_percent": 12,
